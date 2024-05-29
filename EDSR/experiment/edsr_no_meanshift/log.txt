@@ -1,0 +1,4027 @@
+EDSR(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (16): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (tail): Sequential(
+    (0): Upsampler(
+      (0): Conv2d(64, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): PixelShuffle(upscale_factor=2)
+      (2): Conv2d(64, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (3): PixelShuffle(upscale_factor=2)
+    )
+    (1): Conv2d(64, 3, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+)
+[Epoch 1]	Learning rate: 1.00e-4
+EDSR(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (16): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (tail): Sequential(
+    (0): Upsampler(
+      (0): Conv2d(64, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): PixelShuffle(upscale_factor=2)
+      (2): Conv2d(64, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (3): PixelShuffle(upscale_factor=2)
+    )
+    (1): Conv2d(64, 3, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+)
+EDSR(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (16): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (tail): Sequential(
+    (0): Upsampler(
+      (0): Conv2d(64, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): PixelShuffle(upscale_factor=2)
+      (2): Conv2d(64, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (3): PixelShuffle(upscale_factor=2)
+    )
+    (1): Conv2d(64, 3, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+)
+[Epoch 1]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 10.9890]	19.0+30.7s
+[3200/4440]	[L1: 6.8678]	16.6+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 45.047 (Best: 45.047 @epoch 1)
+[FFHQ x4]	PSNR: 45.061 (Best: 45.061 @epoch 1)
+[FFHQ x4]	PSNR: 45.058 (Best: 45.058 @epoch 1)
+[FFHQ x4]	PSNR: 45.049 (Best: 45.049 @epoch 1)
+[FFHQ x4]	PSNR: 45.056 (Best: 45.056 @epoch 1)
+[FFHQ x4]	PSNR: 45.052 (Best: 45.052 @epoch 1)
+[FFHQ x4]	PSNR: 45.058 (Best: 45.058 @epoch 1)
+[FFHQ x4]	PSNR: 45.062 (Best: 45.062 @epoch 1)
+[FFHQ x4]	PSNR: 45.056 (Best: 45.056 @epoch 1)
+[FFHQ x4]	PSNR: 45.047 (Best: 45.047 @epoch 1)
+[FFHQ x4]	PSNR: 45.049 (Best: 45.049 @epoch 1)
+[FFHQ x4]	PSNR: 45.044 (Best: 45.044 @epoch 1)
+[FFHQ x4]	PSNR: 45.056 (Best: 45.056 @epoch 1)
+[FFHQ x4]	PSNR: 45.050 (Best: 45.050 @epoch 1)
+[FFHQ x4]	PSNR: 45.057 (Best: 45.057 @epoch 1)
+[FFHQ x4]	PSNR: 45.058 (Best: 45.058 @epoch 1)
+[FFHQ x4]	PSNR: 45.059 (Best: 45.059 @epoch 1)
+[FFHQ x4]	PSNR: 45.052 (Best: 45.052 @epoch 1)
+[FFHQ x4]	PSNR: 45.060 (Best: 45.060 @epoch 1)
+[FFHQ x4]	PSNR: 45.046 (Best: 45.046 @epoch 1)
+[FFHQ x4]	PSNR: 45.057 (Best: 45.057 @epoch 1)
+[FFHQ x4]	PSNR: 45.043 (Best: 45.043 @epoch 1)
+[FFHQ x4]	PSNR: 45.056 (Best: 45.056 @epoch 1)
+[FFHQ x4]	PSNR: 45.061 (Best: 45.061 @epoch 1)
+[FFHQ x4]	PSNR: 45.053 (Best: 45.053 @epoch 1)
+Forward: 12.77s
+
+Saving...
+Total: 13.48s
+
+[Epoch 2]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 1.6356]	15.1+28.6s
+EDSR(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU(inplace=True)
+        (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (16): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (tail): Sequential(
+    (0): Upsampler(
+      (0): Conv2d(64, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): PixelShuffle(upscale_factor=2)
+      (2): Conv2d(64, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (3): PixelShuffle(upscale_factor=2)
+    )
+    (1): Conv2d(64, 3, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+)
+[Epoch 1]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 10.7821]	18.5+29.5s
+[3200/4440]	[L1: 6.6152]	16.9+26.4s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.013 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.900 (Best: 27.900 @epoch 1)
+[FFHQ x4]	PSNR: 27.897 (Best: 27.897 @epoch 1)
+[FFHQ x4]	PSNR: 27.918 (Best: 27.918 @epoch 1)
+[FFHQ x4]	PSNR: 27.977 (Best: 27.977 @epoch 1)
+[FFHQ x4]	PSNR: 27.994 (Best: 27.994 @epoch 1)
+[FFHQ x4]	PSNR: 27.921 (Best: 27.921 @epoch 1)
+[FFHQ x4]	PSNR: 27.951 (Best: 27.951 @epoch 1)
+[FFHQ x4]	PSNR: 27.892 (Best: 27.892 @epoch 1)
+[FFHQ x4]	PSNR: 27.959 (Best: 27.959 @epoch 1)
+[FFHQ x4]	PSNR: 27.929 (Best: 27.929 @epoch 1)
+[FFHQ x4]	PSNR: 27.896 (Best: 27.896 @epoch 1)
+[FFHQ x4]	PSNR: 27.842 (Best: 27.842 @epoch 1)
+[FFHQ x4]	PSNR: 27.895 (Best: 27.895 @epoch 1)
+[FFHQ x4]	PSNR: 27.791 (Best: 27.791 @epoch 1)
+[FFHQ x4]	PSNR: 27.841 (Best: 27.841 @epoch 1)
+[FFHQ x4]	PSNR: 27.965 (Best: 27.965 @epoch 1)
+[FFHQ x4]	PSNR: 28.153 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 27.989 (Best: 27.989 @epoch 1)
+[FFHQ x4]	PSNR: 28.043 (Best: 28.043 @epoch 1)
+[FFHQ x4]	PSNR: 27.823 (Best: 27.823 @epoch 1)
+[FFHQ x4]	PSNR: 28.061 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 28.006 (Best: 28.006 @epoch 1)
+[FFHQ x4]	PSNR: 28.017 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.976 (Best: 27.976 @epoch 1)
+Forward: 15.39s
+
+Saving...
+Total: 15.96s
+
+[Epoch 2]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 1.7399]	16.4+29.4s
+[3200/4440]	[L1: 1.6388]	16.8+26.3s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.952 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.883 (Best: 27.900 @epoch 1)
+[FFHQ x4]	PSNR: 27.868 (Best: 27.897 @epoch 1)
+[FFHQ x4]	PSNR: 27.883 (Best: 27.918 @epoch 1)
+[FFHQ x4]	PSNR: 27.954 (Best: 27.977 @epoch 1)
+[FFHQ x4]	PSNR: 27.971 (Best: 27.994 @epoch 1)
+[FFHQ x4]	PSNR: 27.882 (Best: 27.921 @epoch 1)
+[FFHQ x4]	PSNR: 27.952 (Best: 27.952 @epoch 2)
+[FFHQ x4]	PSNR: 27.867 (Best: 27.892 @epoch 1)
+[FFHQ x4]	PSNR: 27.941 (Best: 27.959 @epoch 1)
+[FFHQ x4]	PSNR: 27.889 (Best: 27.929 @epoch 1)
+[FFHQ x4]	PSNR: 27.870 (Best: 27.896 @epoch 1)
+[FFHQ x4]	PSNR: 27.819 (Best: 27.842 @epoch 1)
+[FFHQ x4]	PSNR: 27.871 (Best: 27.895 @epoch 1)
+[FFHQ x4]	PSNR: 27.757 (Best: 27.791 @epoch 1)
+[FFHQ x4]	PSNR: 27.827 (Best: 27.841 @epoch 1)
+[FFHQ x4]	PSNR: 27.931 (Best: 27.965 @epoch 1)
+[FFHQ x4]	PSNR: 28.075 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 28.004 (Best: 28.004 @epoch 2)
+[FFHQ x4]	PSNR: 27.968 (Best: 28.043 @epoch 1)
+[FFHQ x4]	PSNR: 27.795 (Best: 27.823 @epoch 1)
+[FFHQ x4]	PSNR: 27.973 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 28.032 (Best: 28.032 @epoch 2)
+[FFHQ x4]	PSNR: 28.000 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.935 (Best: 27.976 @epoch 1)
+Forward: 23.58s
+
+Saving...
+Total: 24.56s
+
+[Epoch 3]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 1.0773]	16.8+29.4s
+[3200/4440]	[L1: 1.1306]	16.7+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.934 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.873 (Best: 27.900 @epoch 1)
+[FFHQ x4]	PSNR: 27.860 (Best: 27.897 @epoch 1)
+[FFHQ x4]	PSNR: 27.867 (Best: 27.918 @epoch 1)
+[FFHQ x4]	PSNR: 27.923 (Best: 27.977 @epoch 1)
+[FFHQ x4]	PSNR: 27.944 (Best: 27.994 @epoch 1)
+[FFHQ x4]	PSNR: 27.868 (Best: 27.921 @epoch 1)
+[FFHQ x4]	PSNR: 27.916 (Best: 27.952 @epoch 2)
+[FFHQ x4]	PSNR: 27.857 (Best: 27.892 @epoch 1)
+[FFHQ x4]	PSNR: 27.909 (Best: 27.959 @epoch 1)
+[FFHQ x4]	PSNR: 27.877 (Best: 27.929 @epoch 1)
+[FFHQ x4]	PSNR: 27.867 (Best: 27.896 @epoch 1)
+[FFHQ x4]	PSNR: 27.808 (Best: 27.842 @epoch 1)
+[FFHQ x4]	PSNR: 27.862 (Best: 27.895 @epoch 1)
+[FFHQ x4]	PSNR: 27.776 (Best: 27.791 @epoch 1)
+[FFHQ x4]	PSNR: 27.820 (Best: 27.841 @epoch 1)
+[FFHQ x4]	PSNR: 27.903 (Best: 27.965 @epoch 1)
+[FFHQ x4]	PSNR: 28.021 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 27.957 (Best: 28.004 @epoch 2)
+[FFHQ x4]	PSNR: 27.929 (Best: 28.043 @epoch 1)
+[FFHQ x4]	PSNR: 27.807 (Best: 27.823 @epoch 1)
+[FFHQ x4]	PSNR: 27.953 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 27.974 (Best: 28.032 @epoch 2)
+[FFHQ x4]	PSNR: 27.952 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.904 (Best: 27.976 @epoch 1)
+Forward: 23.19s
+
+Saving...
+Total: 24.58s
+
+[Epoch 4]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.9308]	16.8+29.6s
+[3200/4440]	[L1: 0.9180]	15.7+25.7s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.008 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.901 (Best: 27.901 @epoch 4)
+[FFHQ x4]	PSNR: 27.893 (Best: 27.897 @epoch 1)
+[FFHQ x4]	PSNR: 27.927 (Best: 27.927 @epoch 4)
+[FFHQ x4]	PSNR: 27.975 (Best: 27.977 @epoch 1)
+[FFHQ x4]	PSNR: 27.988 (Best: 27.994 @epoch 1)
+[FFHQ x4]	PSNR: 27.922 (Best: 27.922 @epoch 4)
+[FFHQ x4]	PSNR: 27.943 (Best: 27.952 @epoch 2)
+[FFHQ x4]	PSNR: 27.890 (Best: 27.892 @epoch 1)
+[FFHQ x4]	PSNR: 27.959 (Best: 27.959 @epoch 4)
+[FFHQ x4]	PSNR: 27.927 (Best: 27.929 @epoch 1)
+[FFHQ x4]	PSNR: 27.905 (Best: 27.905 @epoch 4)
+[FFHQ x4]	PSNR: 27.831 (Best: 27.842 @epoch 1)
+[FFHQ x4]	PSNR: 27.896 (Best: 27.896 @epoch 4)
+[FFHQ x4]	PSNR: 27.795 (Best: 27.795 @epoch 4)
+[FFHQ x4]	PSNR: 27.850 (Best: 27.850 @epoch 4)
+[FFHQ x4]	PSNR: 27.964 (Best: 27.965 @epoch 1)
+[FFHQ x4]	PSNR: 28.138 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 27.972 (Best: 28.004 @epoch 2)
+[FFHQ x4]	PSNR: 28.052 (Best: 28.052 @epoch 4)
+[FFHQ x4]	PSNR: 27.831 (Best: 27.831 @epoch 4)
+[FFHQ x4]	PSNR: 28.054 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 27.997 (Best: 28.032 @epoch 2)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.974 (Best: 27.976 @epoch 1)
+Forward: 24.78s
+
+Saving...
+Total: 26.09s
+
+[Epoch 5]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.8673]	17.1+29.9s
+[3200/4440]	[L1: 0.8385]	16.6+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.965 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.877 (Best: 27.901 @epoch 4)
+[FFHQ x4]	PSNR: 27.882 (Best: 27.897 @epoch 1)
+[FFHQ x4]	PSNR: 27.897 (Best: 27.927 @epoch 4)
+[FFHQ x4]	PSNR: 27.924 (Best: 27.977 @epoch 1)
+[FFHQ x4]	PSNR: 27.947 (Best: 27.994 @epoch 1)
+[FFHQ x4]	PSNR: 27.881 (Best: 27.922 @epoch 4)
+[FFHQ x4]	PSNR: 27.922 (Best: 27.952 @epoch 2)
+[FFHQ x4]	PSNR: 27.870 (Best: 27.892 @epoch 1)
+[FFHQ x4]	PSNR: 27.940 (Best: 27.959 @epoch 4)
+[FFHQ x4]	PSNR: 27.910 (Best: 27.929 @epoch 1)
+[FFHQ x4]	PSNR: 27.882 (Best: 27.905 @epoch 4)
+[FFHQ x4]	PSNR: 27.826 (Best: 27.842 @epoch 1)
+[FFHQ x4]	PSNR: 27.875 (Best: 27.896 @epoch 4)
+[FFHQ x4]	PSNR: 27.786 (Best: 27.795 @epoch 4)
+[FFHQ x4]	PSNR: 27.833 (Best: 27.850 @epoch 4)
+[FFHQ x4]	PSNR: 27.935 (Best: 27.965 @epoch 1)
+[FFHQ x4]	PSNR: 28.098 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 27.920 (Best: 28.004 @epoch 2)
+[FFHQ x4]	PSNR: 28.027 (Best: 28.052 @epoch 4)
+[FFHQ x4]	PSNR: 27.821 (Best: 27.831 @epoch 4)
+[FFHQ x4]	PSNR: 28.018 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 27.958 (Best: 28.032 @epoch 2)
+[FFHQ x4]	PSNR: 27.971 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.950 (Best: 27.976 @epoch 1)
+Forward: 23.16s
+
+Saving...
+Total: 24.24s
+
+[Epoch 6]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.8072]	17.1+29.8s
+[3200/4440]	[L1: 0.8289]	16.8+26.3s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.995 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.892 (Best: 27.901 @epoch 4)
+[FFHQ x4]	PSNR: 27.902 (Best: 27.902 @epoch 6)
+[FFHQ x4]	PSNR: 27.924 (Best: 27.927 @epoch 4)
+[FFHQ x4]	PSNR: 27.964 (Best: 27.977 @epoch 1)
+[FFHQ x4]	PSNR: 27.985 (Best: 27.994 @epoch 1)
+[FFHQ x4]	PSNR: 27.909 (Best: 27.922 @epoch 4)
+[FFHQ x4]	PSNR: 27.971 (Best: 27.971 @epoch 6)
+[FFHQ x4]	PSNR: 27.905 (Best: 27.905 @epoch 6)
+[FFHQ x4]	PSNR: 27.962 (Best: 27.962 @epoch 6)
+[FFHQ x4]	PSNR: 27.919 (Best: 27.929 @epoch 1)
+[FFHQ x4]	PSNR: 27.913 (Best: 27.913 @epoch 6)
+[FFHQ x4]	PSNR: 27.853 (Best: 27.853 @epoch 6)
+[FFHQ x4]	PSNR: 27.893 (Best: 27.896 @epoch 4)
+[FFHQ x4]	PSNR: 27.812 (Best: 27.812 @epoch 6)
+[FFHQ x4]	PSNR: 27.849 (Best: 27.850 @epoch 4)
+[FFHQ x4]	PSNR: 27.951 (Best: 27.965 @epoch 1)
+[FFHQ x4]	PSNR: 28.114 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 27.979 (Best: 28.004 @epoch 2)
+[FFHQ x4]	PSNR: 28.018 (Best: 28.052 @epoch 4)
+[FFHQ x4]	PSNR: 27.827 (Best: 27.831 @epoch 4)
+[FFHQ x4]	PSNR: 28.035 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 28.012 (Best: 28.032 @epoch 2)
+[FFHQ x4]	PSNR: 27.995 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.976 (Best: 27.976 @epoch 1)
+Forward: 23.41s
+
+Saving...
+Total: 24.55s
+
+[Epoch 7]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.7151]	16.8+29.5s
+[3200/4440]	[L1: 0.7162]	15.1+25.4s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.002 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.914 (Best: 27.914 @epoch 7)
+[FFHQ x4]	PSNR: 27.903 (Best: 27.903 @epoch 7)
+[FFHQ x4]	PSNR: 27.923 (Best: 27.927 @epoch 4)
+[FFHQ x4]	PSNR: 27.974 (Best: 27.977 @epoch 1)
+[FFHQ x4]	PSNR: 27.996 (Best: 27.996 @epoch 7)
+[FFHQ x4]	PSNR: 27.919 (Best: 27.922 @epoch 4)
+[FFHQ x4]	PSNR: 27.969 (Best: 27.971 @epoch 6)
+[FFHQ x4]	PSNR: 27.890 (Best: 27.905 @epoch 6)
+[FFHQ x4]	PSNR: 27.949 (Best: 27.962 @epoch 6)
+[FFHQ x4]	PSNR: 27.929 (Best: 27.929 @epoch 7)
+[FFHQ x4]	PSNR: 27.906 (Best: 27.913 @epoch 6)
+[FFHQ x4]	PSNR: 27.836 (Best: 27.853 @epoch 6)
+[FFHQ x4]	PSNR: 27.889 (Best: 27.896 @epoch 4)
+[FFHQ x4]	PSNR: 27.801 (Best: 27.812 @epoch 6)
+[FFHQ x4]	PSNR: 27.848 (Best: 27.850 @epoch 4)
+[FFHQ x4]	PSNR: 27.959 (Best: 27.965 @epoch 1)
+[FFHQ x4]	PSNR: 28.116 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 27.980 (Best: 28.004 @epoch 2)
+[FFHQ x4]	PSNR: 28.030 (Best: 28.052 @epoch 4)
+[FFHQ x4]	PSNR: 27.836 (Best: 27.836 @epoch 7)
+[FFHQ x4]	PSNR: 28.048 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 28.025 (Best: 28.032 @epoch 2)
+[FFHQ x4]	PSNR: 28.003 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.965 (Best: 27.976 @epoch 1)
+Forward: 23.64s
+
+Saving...
+Total: 24.87s
+
+[Epoch 8]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.6631]	16.8+29.4s
+[3200/4440]	[L1: 0.7297]	16.7+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.975 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.956 (Best: 27.956 @epoch 8)
+[FFHQ x4]	PSNR: 27.936 (Best: 27.936 @epoch 8)
+[FFHQ x4]	PSNR: 27.933 (Best: 27.933 @epoch 8)
+[FFHQ x4]	PSNR: 27.974 (Best: 27.977 @epoch 1)
+[FFHQ x4]	PSNR: 27.996 (Best: 27.996 @epoch 8)
+[FFHQ x4]	PSNR: 27.943 (Best: 27.943 @epoch 8)
+[FFHQ x4]	PSNR: 27.988 (Best: 27.988 @epoch 8)
+[FFHQ x4]	PSNR: 27.912 (Best: 27.912 @epoch 8)
+[FFHQ x4]	PSNR: 27.952 (Best: 27.962 @epoch 6)
+[FFHQ x4]	PSNR: 27.921 (Best: 27.929 @epoch 7)
+[FFHQ x4]	PSNR: 27.907 (Best: 27.913 @epoch 6)
+[FFHQ x4]	PSNR: 27.883 (Best: 27.883 @epoch 8)
+[FFHQ x4]	PSNR: 27.919 (Best: 27.919 @epoch 8)
+[FFHQ x4]	PSNR: 27.841 (Best: 27.841 @epoch 8)
+[FFHQ x4]	PSNR: 27.901 (Best: 27.901 @epoch 8)
+[FFHQ x4]	PSNR: 27.957 (Best: 27.965 @epoch 1)
+[FFHQ x4]	PSNR: 28.065 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 28.018 (Best: 28.018 @epoch 8)
+[FFHQ x4]	PSNR: 27.990 (Best: 28.052 @epoch 4)
+[FFHQ x4]	PSNR: 27.872 (Best: 27.872 @epoch 8)
+[FFHQ x4]	PSNR: 28.019 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 28.052 (Best: 28.052 @epoch 8)
+[FFHQ x4]	PSNR: 28.015 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.977 (Best: 27.977 @epoch 8)
+Forward: 24.12s
+
+Saving...
+Total: 25.28s
+
+[Epoch 9]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.7662]	16.9+29.4s
+[3200/4440]	[L1: 0.8370]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.952 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.845 (Best: 27.956 @epoch 8)
+[FFHQ x4]	PSNR: 27.858 (Best: 27.936 @epoch 8)
+[FFHQ x4]	PSNR: 27.885 (Best: 27.933 @epoch 8)
+[FFHQ x4]	PSNR: 27.907 (Best: 27.977 @epoch 1)
+[FFHQ x4]	PSNR: 27.936 (Best: 27.996 @epoch 8)
+[FFHQ x4]	PSNR: 27.859 (Best: 27.943 @epoch 8)
+[FFHQ x4]	PSNR: 27.914 (Best: 27.988 @epoch 8)
+[FFHQ x4]	PSNR: 27.870 (Best: 27.912 @epoch 8)
+[FFHQ x4]	PSNR: 27.898 (Best: 27.962 @epoch 6)
+[FFHQ x4]	PSNR: 27.876 (Best: 27.929 @epoch 7)
+[FFHQ x4]	PSNR: 27.870 (Best: 27.913 @epoch 6)
+[FFHQ x4]	PSNR: 27.809 (Best: 27.883 @epoch 8)
+[FFHQ x4]	PSNR: 27.842 (Best: 27.919 @epoch 8)
+[FFHQ x4]	PSNR: 27.782 (Best: 27.841 @epoch 8)
+[FFHQ x4]	PSNR: 27.819 (Best: 27.901 @epoch 8)
+[FFHQ x4]	PSNR: 27.884 (Best: 27.965 @epoch 1)
+[FFHQ x4]	PSNR: 28.040 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 27.917 (Best: 28.018 @epoch 8)
+[FFHQ x4]	PSNR: 27.965 (Best: 28.052 @epoch 4)
+[FFHQ x4]	PSNR: 27.790 (Best: 27.872 @epoch 8)
+[FFHQ x4]	PSNR: 27.992 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 27.940 (Best: 28.052 @epoch 8)
+[FFHQ x4]	PSNR: 27.932 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.917 (Best: 27.977 @epoch 8)
+Forward: 24.55s
+
+Saving...
+Total: 25.88s
+
+[Epoch 10]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.6592]	16.8+29.2s
+[3200/4440]	[L1: 0.7101]	16.7+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.965 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.835 (Best: 27.956 @epoch 8)
+[FFHQ x4]	PSNR: 27.833 (Best: 27.936 @epoch 8)
+[FFHQ x4]	PSNR: 27.871 (Best: 27.933 @epoch 8)
+[FFHQ x4]	PSNR: 27.892 (Best: 27.977 @epoch 1)
+[FFHQ x4]	PSNR: 27.914 (Best: 27.996 @epoch 8)
+[FFHQ x4]	PSNR: 27.858 (Best: 27.943 @epoch 8)
+[FFHQ x4]	PSNR: 27.880 (Best: 27.988 @epoch 8)
+[FFHQ x4]	PSNR: 27.849 (Best: 27.912 @epoch 8)
+[FFHQ x4]	PSNR: 27.891 (Best: 27.962 @epoch 6)
+[FFHQ x4]	PSNR: 27.887 (Best: 27.929 @epoch 7)
+[FFHQ x4]	PSNR: 27.852 (Best: 27.913 @epoch 6)
+[FFHQ x4]	PSNR: 27.804 (Best: 27.883 @epoch 8)
+[FFHQ x4]	PSNR: 27.845 (Best: 27.919 @epoch 8)
+[FFHQ x4]	PSNR: 27.772 (Best: 27.841 @epoch 8)
+[FFHQ x4]	PSNR: 27.818 (Best: 27.901 @epoch 8)
+[FFHQ x4]	PSNR: 27.904 (Best: 27.965 @epoch 1)
+[FFHQ x4]	PSNR: 28.070 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 27.896 (Best: 28.018 @epoch 8)
+[FFHQ x4]	PSNR: 27.999 (Best: 28.052 @epoch 4)
+[FFHQ x4]	PSNR: 27.793 (Best: 27.872 @epoch 8)
+[FFHQ x4]	PSNR: 28.003 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 27.923 (Best: 28.052 @epoch 8)
+[FFHQ x4]	PSNR: 27.927 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.913 (Best: 27.977 @epoch 8)
+Forward: 24.08s
+
+Saving...
+Total: 25.05s
+
+[Epoch 11]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5888]	17.3+29.7s
+[3200/4440]	[L1: 0.6858]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.003 (Best: 28.013 @epoch 1)
+[FFHQ x4]	PSNR: 27.929 (Best: 27.956 @epoch 8)
+[FFHQ x4]	PSNR: 27.907 (Best: 27.936 @epoch 8)
+[FFHQ x4]	PSNR: 27.942 (Best: 27.942 @epoch 11)
+[FFHQ x4]	PSNR: 27.991 (Best: 27.991 @epoch 11)
+[FFHQ x4]	PSNR: 27.997 (Best: 27.997 @epoch 11)
+[FFHQ x4]	PSNR: 27.940 (Best: 27.943 @epoch 8)
+[FFHQ x4]	PSNR: 27.982 (Best: 27.988 @epoch 8)
+[FFHQ x4]	PSNR: 27.918 (Best: 27.918 @epoch 11)
+[FFHQ x4]	PSNR: 27.966 (Best: 27.966 @epoch 11)
+[FFHQ x4]	PSNR: 27.946 (Best: 27.946 @epoch 11)
+[FFHQ x4]	PSNR: 27.922 (Best: 27.922 @epoch 11)
+[FFHQ x4]	PSNR: 27.878 (Best: 27.883 @epoch 8)
+[FFHQ x4]	PSNR: 27.914 (Best: 27.919 @epoch 8)
+[FFHQ x4]	PSNR: 27.847 (Best: 27.847 @epoch 11)
+[FFHQ x4]	PSNR: 27.886 (Best: 27.901 @epoch 8)
+[FFHQ x4]	PSNR: 27.969 (Best: 27.969 @epoch 11)
+[FFHQ x4]	PSNR: 28.087 (Best: 28.153 @epoch 1)
+[FFHQ x4]	PSNR: 28.010 (Best: 28.018 @epoch 8)
+[FFHQ x4]	PSNR: 28.017 (Best: 28.052 @epoch 4)
+[FFHQ x4]	PSNR: 27.874 (Best: 27.874 @epoch 11)
+[FFHQ x4]	PSNR: 28.024 (Best: 28.061 @epoch 1)
+[FFHQ x4]	PSNR: 28.037 (Best: 28.052 @epoch 8)
+[FFHQ x4]	PSNR: 28.016 (Best: 28.017 @epoch 1)
+[FFHQ x4]	PSNR: 27.978 (Best: 27.978 @epoch 11)
+Forward: 25.12s
+
+Saving...
+Total: 26.56s
+
+[Epoch 12]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.6421]	17.1+29.6s
+[3200/4440]	[L1: 0.6130]	16.8+26.3s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.051 (Best: 28.051 @epoch 12)
+[FFHQ x4]	PSNR: 27.918 (Best: 27.956 @epoch 8)
+[FFHQ x4]	PSNR: 27.911 (Best: 27.936 @epoch 8)
+[FFHQ x4]	PSNR: 27.933 (Best: 27.942 @epoch 11)
+[FFHQ x4]	PSNR: 27.994 (Best: 27.994 @epoch 12)
+[FFHQ x4]	PSNR: 28.006 (Best: 28.006 @epoch 12)
+[FFHQ x4]	PSNR: 27.934 (Best: 27.943 @epoch 8)
+[FFHQ x4]	PSNR: 27.956 (Best: 27.988 @epoch 8)
+[FFHQ x4]	PSNR: 27.892 (Best: 27.918 @epoch 11)
+[FFHQ x4]	PSNR: 27.972 (Best: 27.972 @epoch 12)
+[FFHQ x4]	PSNR: 27.955 (Best: 27.955 @epoch 12)
+[FFHQ x4]	PSNR: 27.911 (Best: 27.922 @epoch 11)
+[FFHQ x4]	PSNR: 27.848 (Best: 27.883 @epoch 8)
+[FFHQ x4]	PSNR: 27.906 (Best: 27.919 @epoch 8)
+[FFHQ x4]	PSNR: 27.791 (Best: 27.847 @epoch 11)
+[FFHQ x4]	PSNR: 27.856 (Best: 27.901 @epoch 8)
+[FFHQ x4]	PSNR: 27.995 (Best: 27.995 @epoch 12)
+[FFHQ x4]	PSNR: 28.198 (Best: 28.198 @epoch 12)
+[FFHQ x4]	PSNR: 27.990 (Best: 28.018 @epoch 8)
+[FFHQ x4]	PSNR: 28.096 (Best: 28.096 @epoch 12)
+[FFHQ x4]	PSNR: 27.845 (Best: 27.874 @epoch 11)
+[FFHQ x4]	PSNR: 28.099 (Best: 28.099 @epoch 12)
+[FFHQ x4]	PSNR: 28.010 (Best: 28.052 @epoch 8)
+[FFHQ x4]	PSNR: 28.044 (Best: 28.044 @epoch 12)
+[FFHQ x4]	PSNR: 27.995 (Best: 27.995 @epoch 12)
+Forward: 15.03s
+
+Saving...
+Total: 15.55s
+
+[Epoch 13]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.6273]	16.2+29.1s
+[3200/4440]	[L1: 1.0503]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.962 (Best: 28.051 @epoch 12)
+[FFHQ x4]	PSNR: 27.997 (Best: 27.997 @epoch 13)
+[FFHQ x4]	PSNR: 27.973 (Best: 27.973 @epoch 13)
+[FFHQ x4]	PSNR: 27.942 (Best: 27.942 @epoch 13)
+[FFHQ x4]	PSNR: 27.987 (Best: 27.994 @epoch 12)
+[FFHQ x4]	PSNR: 28.005 (Best: 28.006 @epoch 12)
+[FFHQ x4]	PSNR: 27.965 (Best: 27.965 @epoch 13)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.014 @epoch 13)
+[FFHQ x4]	PSNR: 27.942 (Best: 27.942 @epoch 13)
+[FFHQ x4]	PSNR: 27.979 (Best: 27.979 @epoch 13)
+[FFHQ x4]	PSNR: 27.914 (Best: 27.955 @epoch 12)
+[FFHQ x4]	PSNR: 27.935 (Best: 27.935 @epoch 13)
+[FFHQ x4]	PSNR: 27.913 (Best: 27.913 @epoch 13)
+[FFHQ x4]	PSNR: 27.945 (Best: 27.945 @epoch 13)
+[FFHQ x4]	PSNR: 27.872 (Best: 27.872 @epoch 13)
+[FFHQ x4]	PSNR: 27.936 (Best: 27.936 @epoch 13)
+[FFHQ x4]	PSNR: 27.963 (Best: 27.995 @epoch 12)
+[FFHQ x4]	PSNR: 28.025 (Best: 28.198 @epoch 12)
+[FFHQ x4]	PSNR: 28.051 (Best: 28.051 @epoch 13)
+[FFHQ x4]	PSNR: 27.943 (Best: 28.096 @epoch 12)
+[FFHQ x4]	PSNR: 27.909 (Best: 27.909 @epoch 13)
+[FFHQ x4]	PSNR: 27.988 (Best: 28.099 @epoch 12)
+[FFHQ x4]	PSNR: 28.073 (Best: 28.073 @epoch 13)
+[FFHQ x4]	PSNR: 28.016 (Best: 28.044 @epoch 12)
+[FFHQ x4]	PSNR: 27.981 (Best: 27.995 @epoch 12)
+Forward: 22.62s
+
+Saving...
+Total: 23.66s
+
+[Epoch 14]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5419]	17.0+29.5s
+[3200/4440]	[L1: 0.5236]	16.7+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.961 (Best: 28.051 @epoch 12)
+[FFHQ x4]	PSNR: 27.858 (Best: 27.997 @epoch 13)
+[FFHQ x4]	PSNR: 27.832 (Best: 27.973 @epoch 13)
+[FFHQ x4]	PSNR: 27.870 (Best: 27.942 @epoch 13)
+[FFHQ x4]	PSNR: 27.863 (Best: 27.994 @epoch 12)
+[FFHQ x4]	PSNR: 27.910 (Best: 28.006 @epoch 12)
+[FFHQ x4]	PSNR: 27.874 (Best: 27.965 @epoch 13)
+[FFHQ x4]	PSNR: 27.876 (Best: 28.014 @epoch 13)
+[FFHQ x4]	PSNR: 27.846 (Best: 27.942 @epoch 13)
+[FFHQ x4]	PSNR: 27.873 (Best: 27.979 @epoch 13)
+[FFHQ x4]	PSNR: 27.874 (Best: 27.955 @epoch 12)
+[FFHQ x4]	PSNR: 27.856 (Best: 27.935 @epoch 13)
+[FFHQ x4]	PSNR: 27.807 (Best: 27.913 @epoch 13)
+[FFHQ x4]	PSNR: 27.846 (Best: 27.945 @epoch 13)
+[FFHQ x4]	PSNR: 27.795 (Best: 27.872 @epoch 13)
+[FFHQ x4]	PSNR: 27.822 (Best: 27.936 @epoch 13)
+[FFHQ x4]	PSNR: 27.881 (Best: 27.995 @epoch 12)
+[FFHQ x4]	PSNR: 28.052 (Best: 28.198 @epoch 12)
+[FFHQ x4]	PSNR: 27.878 (Best: 28.051 @epoch 13)
+[FFHQ x4]	PSNR: 27.976 (Best: 28.096 @epoch 12)
+[FFHQ x4]	PSNR: 27.809 (Best: 27.909 @epoch 13)
+[FFHQ x4]	PSNR: 27.993 (Best: 28.099 @epoch 12)
+[FFHQ x4]	PSNR: 27.904 (Best: 28.073 @epoch 13)
+[FFHQ x4]	PSNR: 27.889 (Best: 28.044 @epoch 12)
+[FFHQ x4]	PSNR: 27.911 (Best: 27.995 @epoch 12)
+Forward: 22.77s
+
+Saving...
+Total: 24.17s
+
+[Epoch 15]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5259]	16.9+29.4s
+[3200/4440]	[L1: 0.5574]	16.6+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.977 (Best: 28.051 @epoch 12)
+[FFHQ x4]	PSNR: 27.828 (Best: 27.997 @epoch 13)
+[FFHQ x4]	PSNR: 27.825 (Best: 27.973 @epoch 13)
+[FFHQ x4]	PSNR: 27.878 (Best: 27.942 @epoch 13)
+[FFHQ x4]	PSNR: 27.868 (Best: 27.994 @epoch 12)
+[FFHQ x4]	PSNR: 27.915 (Best: 28.006 @epoch 12)
+[FFHQ x4]	PSNR: 27.855 (Best: 27.965 @epoch 13)
+[FFHQ x4]	PSNR: 27.880 (Best: 28.014 @epoch 13)
+[FFHQ x4]	PSNR: 27.835 (Best: 27.942 @epoch 13)
+[FFHQ x4]	PSNR: 27.871 (Best: 27.979 @epoch 13)
+[FFHQ x4]	PSNR: 27.880 (Best: 27.955 @epoch 12)
+[FFHQ x4]	PSNR: 27.851 (Best: 27.935 @epoch 13)
+[FFHQ x4]	PSNR: 27.780 (Best: 27.913 @epoch 13)
+[FFHQ x4]	PSNR: 27.827 (Best: 27.945 @epoch 13)
+[FFHQ x4]	PSNR: 27.785 (Best: 27.872 @epoch 13)
+[FFHQ x4]	PSNR: 27.796 (Best: 27.936 @epoch 13)
+[FFHQ x4]	PSNR: 27.891 (Best: 27.995 @epoch 12)
+[FFHQ x4]	PSNR: 28.080 (Best: 28.198 @epoch 12)
+[FFHQ x4]	PSNR: 27.864 (Best: 28.051 @epoch 13)
+[FFHQ x4]	PSNR: 28.003 (Best: 28.096 @epoch 12)
+[FFHQ x4]	PSNR: 27.792 (Best: 27.909 @epoch 13)
+[FFHQ x4]	PSNR: 28.013 (Best: 28.099 @epoch 12)
+[FFHQ x4]	PSNR: 27.919 (Best: 28.073 @epoch 13)
+[FFHQ x4]	PSNR: 27.896 (Best: 28.044 @epoch 12)
+[FFHQ x4]	PSNR: 27.910 (Best: 27.995 @epoch 12)
+Forward: 22.79s
+
+Saving...
+Total: 24.26s
+
+[Epoch 16]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5183]	16.9+29.4s
+[3200/4440]	[L1: 0.5175]	16.4+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.986 (Best: 28.051 @epoch 12)
+[FFHQ x4]	PSNR: 27.974 (Best: 27.997 @epoch 13)
+[FFHQ x4]	PSNR: 27.942 (Best: 27.973 @epoch 13)
+[FFHQ x4]	PSNR: 27.939 (Best: 27.942 @epoch 13)
+[FFHQ x4]	PSNR: 28.005 (Best: 28.005 @epoch 16)
+[FFHQ x4]	PSNR: 28.015 (Best: 28.015 @epoch 16)
+[FFHQ x4]	PSNR: 27.964 (Best: 27.965 @epoch 13)
+[FFHQ x4]	PSNR: 28.006 (Best: 28.014 @epoch 13)
+[FFHQ x4]	PSNR: 27.948 (Best: 27.948 @epoch 16)
+[FFHQ x4]	PSNR: 27.992 (Best: 27.992 @epoch 16)
+[FFHQ x4]	PSNR: 27.932 (Best: 27.955 @epoch 12)
+[FFHQ x4]	PSNR: 27.951 (Best: 27.951 @epoch 16)
+[FFHQ x4]	PSNR: 27.923 (Best: 27.923 @epoch 16)
+[FFHQ x4]	PSNR: 27.949 (Best: 27.949 @epoch 16)
+[FFHQ x4]	PSNR: 27.885 (Best: 27.885 @epoch 16)
+[FFHQ x4]	PSNR: 27.934 (Best: 27.936 @epoch 13)
+[FFHQ x4]	PSNR: 27.967 (Best: 27.995 @epoch 12)
+[FFHQ x4]	PSNR: 28.051 (Best: 28.198 @epoch 12)
+[FFHQ x4]	PSNR: 28.052 (Best: 28.052 @epoch 16)
+[FFHQ x4]	PSNR: 27.972 (Best: 28.096 @epoch 12)
+[FFHQ x4]	PSNR: 27.906 (Best: 27.909 @epoch 13)
+[FFHQ x4]	PSNR: 28.002 (Best: 28.099 @epoch 12)
+[FFHQ x4]	PSNR: 28.070 (Best: 28.073 @epoch 13)
+[FFHQ x4]	PSNR: 28.015 (Best: 28.044 @epoch 12)
+[FFHQ x4]	PSNR: 27.977 (Best: 27.995 @epoch 12)
+Forward: 23.34s
+
+Saving...
+Total: 24.81s
+
+[Epoch 17]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.6226]	17.0+29.7s
+[3200/4440]	[L1: 0.6385]	17.0+26.7s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.907 (Best: 28.051 @epoch 12)
+[FFHQ x4]	PSNR: 27.870 (Best: 27.997 @epoch 13)
+[FFHQ x4]	PSNR: 27.860 (Best: 27.973 @epoch 13)
+[FFHQ x4]	PSNR: 27.848 (Best: 27.942 @epoch 13)
+[FFHQ x4]	PSNR: 27.917 (Best: 28.005 @epoch 16)
+[FFHQ x4]	PSNR: 27.936 (Best: 28.015 @epoch 16)
+[FFHQ x4]	PSNR: 27.869 (Best: 27.965 @epoch 13)
+[FFHQ x4]	PSNR: 27.920 (Best: 28.014 @epoch 13)
+[FFHQ x4]	PSNR: 27.853 (Best: 27.948 @epoch 16)
+[FFHQ x4]	PSNR: 27.915 (Best: 27.992 @epoch 16)
+[FFHQ x4]	PSNR: 27.851 (Best: 27.955 @epoch 12)
+[FFHQ x4]	PSNR: 27.852 (Best: 27.951 @epoch 16)
+[FFHQ x4]	PSNR: 27.817 (Best: 27.923 @epoch 16)
+[FFHQ x4]	PSNR: 27.866 (Best: 27.949 @epoch 16)
+[FFHQ x4]	PSNR: 27.768 (Best: 27.885 @epoch 16)
+[FFHQ x4]	PSNR: 27.818 (Best: 27.936 @epoch 13)
+[FFHQ x4]	PSNR: 27.904 (Best: 27.995 @epoch 12)
+[FFHQ x4]	PSNR: 28.020 (Best: 28.198 @epoch 12)
+[FFHQ x4]	PSNR: 27.978 (Best: 28.052 @epoch 16)
+[FFHQ x4]	PSNR: 27.912 (Best: 28.096 @epoch 12)
+[FFHQ x4]	PSNR: 27.788 (Best: 27.909 @epoch 13)
+[FFHQ x4]	PSNR: 27.938 (Best: 28.099 @epoch 12)
+[FFHQ x4]	PSNR: 28.009 (Best: 28.073 @epoch 13)
+[FFHQ x4]	PSNR: 27.952 (Best: 28.044 @epoch 12)
+[FFHQ x4]	PSNR: 27.904 (Best: 27.995 @epoch 12)
+Forward: 26.43s
+
+Saving...
+Total: 27.99s
+
+[Epoch 18]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5287]	17.0+29.8s
+[3200/4440]	[L1: 0.6053]	16.6+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.992 (Best: 28.051 @epoch 12)
+[FFHQ x4]	PSNR: 27.920 (Best: 27.997 @epoch 13)
+[FFHQ x4]	PSNR: 27.930 (Best: 27.973 @epoch 13)
+[FFHQ x4]	PSNR: 27.925 (Best: 27.942 @epoch 13)
+[FFHQ x4]	PSNR: 27.946 (Best: 28.005 @epoch 16)
+[FFHQ x4]	PSNR: 27.960 (Best: 28.015 @epoch 16)
+[FFHQ x4]	PSNR: 27.931 (Best: 27.965 @epoch 13)
+[FFHQ x4]	PSNR: 27.969 (Best: 28.014 @epoch 13)
+[FFHQ x4]	PSNR: 27.922 (Best: 27.948 @epoch 16)
+[FFHQ x4]	PSNR: 27.942 (Best: 27.992 @epoch 16)
+[FFHQ x4]	PSNR: 27.929 (Best: 27.955 @epoch 12)
+[FFHQ x4]	PSNR: 27.923 (Best: 27.951 @epoch 16)
+[FFHQ x4]	PSNR: 27.886 (Best: 27.923 @epoch 16)
+[FFHQ x4]	PSNR: 27.911 (Best: 27.949 @epoch 16)
+[FFHQ x4]	PSNR: 27.837 (Best: 27.885 @epoch 16)
+[FFHQ x4]	PSNR: 27.890 (Best: 27.936 @epoch 13)
+[FFHQ x4]	PSNR: 27.923 (Best: 27.995 @epoch 12)
+[FFHQ x4]	PSNR: 28.082 (Best: 28.198 @epoch 12)
+[FFHQ x4]	PSNR: 27.965 (Best: 28.052 @epoch 16)
+[FFHQ x4]	PSNR: 28.020 (Best: 28.096 @epoch 12)
+[FFHQ x4]	PSNR: 27.870 (Best: 27.909 @epoch 13)
+[FFHQ x4]	PSNR: 28.036 (Best: 28.099 @epoch 12)
+[FFHQ x4]	PSNR: 27.987 (Best: 28.073 @epoch 13)
+[FFHQ x4]	PSNR: 27.993 (Best: 28.044 @epoch 12)
+[FFHQ x4]	PSNR: 27.983 (Best: 27.995 @epoch 12)
+Forward: 23.34s
+
+Saving...
+Total: 24.65s
+
+[Epoch 19]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.7796]	17.2+29.6s
+[3200/4440]	[L1: 0.6576]	17.0+26.6s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.092 (Best: 28.092 @epoch 19)
+[FFHQ x4]	PSNR: 28.039 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 28.024 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 28.036 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 28.080 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 28.070 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 28.046 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 28.088 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 28.022 (Best: 28.022 @epoch 19)
+[FFHQ x4]	PSNR: 28.041 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 28.029 (Best: 28.029 @epoch 19)
+[FFHQ x4]	PSNR: 27.998 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.997 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 28.008 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.943 (Best: 27.943 @epoch 19)
+[FFHQ x4]	PSNR: 28.001 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 28.051 (Best: 28.051 @epoch 19)
+[FFHQ x4]	PSNR: 28.159 (Best: 28.198 @epoch 12)
+[FFHQ x4]	PSNR: 28.099 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 28.125 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.979 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 28.134 (Best: 28.134 @epoch 19)
+[FFHQ x4]	PSNR: 28.125 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 28.109 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 28.082 (Best: 28.082 @epoch 19)
+Forward: 23.79s
+
+Saving...
+Total: 24.91s
+
+[Epoch 20]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5266]	16.4+29.5s
+[3200/4440]	[L1: 0.7607]	16.6+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.994 (Best: 28.092 @epoch 19)
+[FFHQ x4]	PSNR: 27.883 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.872 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.893 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.967 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.993 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.893 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.964 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.868 (Best: 28.022 @epoch 19)
+[FFHQ x4]	PSNR: 27.952 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.902 (Best: 28.029 @epoch 19)
+[FFHQ x4]	PSNR: 27.876 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.812 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.873 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.742 (Best: 27.943 @epoch 19)
+[FFHQ x4]	PSNR: 27.815 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.951 (Best: 28.051 @epoch 19)
+[FFHQ x4]	PSNR: 28.152 (Best: 28.198 @epoch 12)
+[FFHQ x4]	PSNR: 28.020 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 28.017 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.785 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 28.029 (Best: 28.134 @epoch 19)
+[FFHQ x4]	PSNR: 28.065 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 28.026 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.958 (Best: 28.082 @epoch 19)
+Forward: 23.41s
+
+Saving...
+Total: 24.45s
+
+[Epoch 21]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.8686]	17.0+29.7s
+[3200/4440]	[L1: 0.8461]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.104 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.962 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.955 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 28.013 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 28.001 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.996 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 28.013 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 28.049 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 28.022 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 28.035 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 28.091 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.991 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.979 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.974 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.960 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.973 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 28.099 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.256 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 28.217 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.977 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 28.148 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.090 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 28.067 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 28.088 (Best: 28.088 @epoch 21)
+Forward: 24.11s
+
+Saving...
+Total: 25.58s
+
+[Epoch 22]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.7627]	16.9+29.5s
+[3200/4440]	[L1: 0.7498]	16.7+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.942 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.718 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.754 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.848 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.784 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.839 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.789 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.778 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.776 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 27.762 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.864 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.766 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.709 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.731 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.709 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.662 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.772 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.072 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.765 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 27.998 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.698 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 28.034 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.740 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.799 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.859 (Best: 28.088 @epoch 21)
+Forward: 11.13s
+
+Saving...
+Total: 11.64s
+
+[Epoch 23]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.7015]	16.7+29.3s
+[3200/4440]	[L1: 0.6928]	17.1+26.6s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.872 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.847 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.829 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.832 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.933 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.932 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.848 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.920 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.835 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 27.926 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.857 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.849 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.799 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.853 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.732 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.802 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.907 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.965 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.005 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 27.851 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.776 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 27.870 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.045 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.974 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.874 (Best: 28.088 @epoch 21)
+Forward: 22.57s
+
+Saving...
+Total: 23.47s
+
+[Epoch 24]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.6601]	16.9+29.3s
+[3200/4440]	[L1: 0.6533]	16.5+25.8s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.781 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.833 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.821 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.776 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.903 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.879 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.821 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.893 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.825 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 27.893 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.816 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.832 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.791 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.844 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.737 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.806 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.873 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.846 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.993 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 27.739 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.784 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 27.761 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.026 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.934 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.815 (Best: 28.088 @epoch 21)
+Forward: 22.78s
+
+Saving...
+Total: 23.88s
+
+[Epoch 25]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.6298]	17.0+29.5s
+[3200/4440]	[L1: 0.6260]	16.2+25.8s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.002 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.759 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.754 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.857 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.805 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.835 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.802 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.823 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.799 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 27.788 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.893 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.811 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.731 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.797 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.746 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.723 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.794 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.131 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.818 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 28.010 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.708 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 28.059 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.801 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.860 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.899 (Best: 28.088 @epoch 21)
+Forward: 22.75s
+
+Saving...
+Total: 23.85s
+
+[Epoch 26]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.6075]	16.7+28.8s
+[3200/4440]	[L1: 0.6045]	16.9+26.3s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.861 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.654 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.647 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.762 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.695 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.777 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.670 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.704 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.675 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 27.685 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.752 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.691 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.600 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.655 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.635 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.625 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.707 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.981 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.656 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 27.900 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.594 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 27.922 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.713 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.700 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.766 (Best: 28.088 @epoch 21)
+Forward: 22.76s
+
+Saving...
+Total: 24.16s
+
+[Epoch 27]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5910]	16.7+29.4s
+[3200/4440]	[L1: 0.5933]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.788 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.828 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.817 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.775 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.901 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.884 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.821 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.900 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.820 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 27.901 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.796 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.833 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.797 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.845 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.752 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.807 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.868 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.844 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.990 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 27.749 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.784 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 27.775 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.019 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.919 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.815 (Best: 28.088 @epoch 21)
+Forward: 23.49s
+
+Saving...
+Total: 24.96s
+
+[Epoch 28]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5776]	16.7+29.3s
+[3200/4440]	[L1: 0.5750]	16.7+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.818 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.880 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.866 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.811 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.938 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.922 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.858 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.923 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.857 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 27.922 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.818 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.856 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.821 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.868 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.781 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.833 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.903 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.898 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.023 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 27.789 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.810 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 27.829 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.040 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.946 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.855 (Best: 28.088 @epoch 21)
+Forward: 24.13s
+
+Saving...
+Total: 25.06s
+
+[Epoch 29]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5649]	17.0+29.3s
+[3200/4440]	[L1: 0.5631]	16.6+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.976 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.810 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.797 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.888 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.843 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.858 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.818 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.856 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.823 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 27.829 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.936 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.816 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.766 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.806 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.770 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.779 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.862 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.110 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.822 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 28.057 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.776 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 28.021 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.857 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.903 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.923 (Best: 28.088 @epoch 21)
+Forward: 23.40s
+
+Saving...
+Total: 24.47s
+
+[Epoch 30]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5559]	16.9+29.4s
+[3200/4440]	[L1: 0.5552]	16.6+25.9s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.970 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.754 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.747 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.862 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.807 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.854 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.806 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.813 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.797 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 27.793 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.879 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.794 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.728 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.768 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.741 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.726 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.813 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.097 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.795 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 28.008 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.718 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 28.036 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.805 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.833 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.882 (Best: 28.088 @epoch 21)
+Forward: 23.37s
+
+Saving...
+Total: 24.36s
+
+[Epoch 31]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5520]	17.1+29.5s
+[3200/4440]	[L1: 0.5496]	16.7+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.831 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.886 (Best: 28.039 @epoch 19)
+[FFHQ x4]	PSNR: 27.865 (Best: 28.024 @epoch 19)
+[FFHQ x4]	PSNR: 27.822 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.945 (Best: 28.080 @epoch 19)
+[FFHQ x4]	PSNR: 27.930 (Best: 28.070 @epoch 19)
+[FFHQ x4]	PSNR: 27.865 (Best: 28.046 @epoch 19)
+[FFHQ x4]	PSNR: 27.935 (Best: 28.088 @epoch 19)
+[FFHQ x4]	PSNR: 27.863 (Best: 28.022 @epoch 21)
+[FFHQ x4]	PSNR: 27.936 (Best: 28.041 @epoch 19)
+[FFHQ x4]	PSNR: 27.829 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.867 (Best: 27.998 @epoch 19)
+[FFHQ x4]	PSNR: 27.832 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.877 (Best: 28.008 @epoch 19)
+[FFHQ x4]	PSNR: 27.788 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.849 (Best: 28.001 @epoch 19)
+[FFHQ x4]	PSNR: 27.909 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.883 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.028 (Best: 28.099 @epoch 19)
+[FFHQ x4]	PSNR: 27.790 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.817 (Best: 27.979 @epoch 19)
+[FFHQ x4]	PSNR: 27.833 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.042 (Best: 28.125 @epoch 19)
+[FFHQ x4]	PSNR: 27.962 (Best: 28.109 @epoch 19)
+[FFHQ x4]	PSNR: 27.861 (Best: 28.088 @epoch 21)
+Forward: 23.27s
+
+Saving...
+Total: 24.37s
+
+[Epoch 32]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5403]	17.1+29.4s
+[3200/4440]	[L1: 0.5412]	16.6+25.9s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.007 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 28.128 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 28.101 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 28.117 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 28.124 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 28.091 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 28.101 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 28.033 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 28.060 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.993 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 28.018 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.997 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 28.032 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.913 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 28.023 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 28.073 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.098 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.158 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 28.022 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.998 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 28.071 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.161 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 28.140 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 28.058 (Best: 28.088 @epoch 21)
+Forward: 24.32s
+
+Saving...
+Total: 25.30s
+
+[Epoch 33]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5372]	16.8+29.3s
+[3200/4440]	[L1: 0.5341]	16.6+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.986 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.948 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.945 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.938 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.919 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.961 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.936 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.974 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.918 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.916 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.914 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.911 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.885 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.902 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.874 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.922 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.935 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.042 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.946 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.996 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.891 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 28.038 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.982 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.951 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.971 (Best: 28.088 @epoch 21)
+Forward: 23.83s
+
+Saving...
+Total: 24.77s
+
+[Epoch 34]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.2462]	16.9+29.4s
+[3200/4440]	[L1: 0.2561]	16.7+26.5s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.962 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.921 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.917 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.923 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.934 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.947 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.910 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.956 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.927 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.921 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.912 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.889 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.879 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.902 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.869 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.903 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.908 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.035 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.966 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.977 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.840 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 28.011 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.985 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.961 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.959 (Best: 28.088 @epoch 21)
+Forward: 22.61s
+
+Saving...
+Total: 23.64s
+
+[Epoch 35]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.2871]	16.7+29.6s
+[3200/4440]	[L1: 0.2857]	16.5+25.8s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.007 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.912 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.913 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.926 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.918 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.943 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.915 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.929 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.905 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.929 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.914 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.914 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.871 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.921 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.857 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.888 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.914 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.081 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.942 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 28.005 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.867 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 28.041 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.953 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.964 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.984 (Best: 28.088 @epoch 21)
+Forward: 22.70s
+
+Saving...
+Total: 23.85s
+
+[Epoch 36]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3189]	17.2+30.0s
+[3200/4440]	[L1: 0.3268]	16.9+26.5s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.983 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.828 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.829 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.890 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.885 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.913 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.858 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.865 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.837 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.878 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.902 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.848 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.779 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.835 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.769 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.790 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.896 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.089 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.857 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 28.036 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.780 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 28.024 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.882 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.928 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.920 (Best: 28.088 @epoch 21)
+Forward: 23.02s
+
+Saving...
+Total: 24.49s
+
+[Epoch 37]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3513]	17.2+30.0s
+[3200/4440]	[L1: 0.3660]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.932 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.978 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.946 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.916 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.968 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.976 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.939 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 28.001 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.938 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.953 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.891 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.924 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.913 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.926 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.873 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.938 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.921 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.978 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.035 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.923 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.884 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 27.973 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.062 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.985 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.955 (Best: 28.088 @epoch 21)
+Forward: 22.82s
+
+Saving...
+Total: 24.25s
+
+[Epoch 38]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4584]	16.7+29.4s
+[3200/4440]	[L1: 0.4351]	16.6+25.9s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.870 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.808 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.781 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.831 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.833 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.863 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.807 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.871 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.811 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.831 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.797 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.808 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.769 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.804 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.777 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.784 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.818 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.941 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.873 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.863 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.739 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 27.910 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.916 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.847 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.855 (Best: 28.088 @epoch 21)
+Forward: 22.72s
+
+Saving...
+Total: 23.60s
+
+[Epoch 39]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5418]	17.0+29.5s
+[3200/4440]	[L1: 0.5071]	16.2+25.8s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.955 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.859 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.857 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.881 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.906 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.944 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.873 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.891 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.859 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.909 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.896 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.879 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.806 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.858 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.796 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.817 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.911 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.070 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.909 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.981 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.812 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 27.997 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.941 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.937 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.916 (Best: 28.088 @epoch 21)
+Forward: 24.69s
+
+Saving...
+Total: 25.76s
+
+[Epoch 40]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4510]	16.8+29.3s
+[3200/4440]	[L1: 0.4255]	16.6+25.9s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.973 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.961 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.927 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.933 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.974 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.981 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.935 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.980 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.942 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.937 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.916 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.920 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.903 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.919 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.893 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.933 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.909 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.015 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.012 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.986 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.890 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 28.007 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.021 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.972 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.959 (Best: 28.088 @epoch 21)
+Forward: 24.10s
+
+Saving...
+Total: 25.72s
+
+[Epoch 41]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3594]	16.9+29.5s
+[3200/4440]	[L1: 0.3863]	17.0+26.6s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.996 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 28.033 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 28.020 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.977 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 28.044 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 28.031 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.981 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 28.041 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.998 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 28.016 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.941 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.968 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.957 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.986 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.914 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.979 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.958 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.035 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.107 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.967 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.954 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 28.031 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.085 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 28.057 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 28.013 (Best: 28.088 @epoch 21)
+Forward: 23.29s
+
+Saving...
+Total: 24.50s
+
+[Epoch 42]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4107]	16.9+29.4s
+[3200/4440]	[L1: 0.4459]	16.8+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.879 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.805 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.783 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.823 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.775 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.833 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.791 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.831 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.780 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.784 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.814 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.776 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.727 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.768 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.735 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.757 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.808 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.969 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.789 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.912 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.730 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 27.932 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.845 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.812 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.848 (Best: 28.088 @epoch 21)
+Forward: 23.86s
+
+Saving...
+Total: 24.95s
+
+[Epoch 43]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4617]	17.0+29.7s
+[3200/4440]	[L1: 0.4494]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.939 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.942 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.925 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.911 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.993 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.998 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.920 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.989 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.918 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.968 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.897 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.919 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.872 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.911 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.819 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.891 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.943 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.004 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.041 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.922 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.863 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 27.956 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.066 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 28.018 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.946 (Best: 28.088 @epoch 21)
+Forward: 24.32s
+
+Saving...
+Total: 25.34s
+
+[Epoch 44]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5318]	16.7+29.3s
+[3200/4440]	[L1: 0.5969]	16.7+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.995 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.884 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.872 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.893 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.970 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.995 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.894 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.966 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.868 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.956 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.901 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.875 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.812 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.873 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.739 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.815 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.950 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.157 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.024 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 28.019 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.784 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 28.029 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.068 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 28.028 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.958 (Best: 28.088 @epoch 21)
+Forward: 22.88s
+
+Saving...
+Total: 24.07s
+
+[Epoch 45]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.6878]	17.0+29.3s
+[3200/4440]	[L1: 0.6691]	16.5+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.793 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.840 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.828 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.783 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.904 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.883 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.834 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.898 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.822 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.899 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.818 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.836 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.794 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.846 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.732 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.803 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.884 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.872 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.996 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.758 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.778 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 27.786 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.036 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.937 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.829 (Best: 28.088 @epoch 21)
+Forward: 11.97s
+
+Saving...
+Total: 13.11s
+
+[Epoch 46]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.6036]	15.5+29.0s
+[3200/4440]	[L1: 0.5941]	16.7+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.968 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.831 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.814 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.899 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.848 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.865 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.840 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.889 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.836 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.859 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.944 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.819 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.774 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.819 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.786 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.824 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.903 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.093 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.854 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 28.049 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.819 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 27.998 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.903 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.915 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.929 (Best: 28.088 @epoch 21)
+Forward: 23.51s
+
+Saving...
+Total: 24.44s
+
+[Epoch 47]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5575]	16.7+28.9s
+[3200/4440]	[L1: 0.5508]	16.6+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.972 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.749 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.729 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.865 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.807 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.836 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.800 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.808 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.792 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.755 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.895 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.778 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.732 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.770 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.736 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.716 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.764 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 28.108 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 27.785 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 28.031 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.707 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 28.048 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 27.779 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.839 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.874 (Best: 28.088 @epoch 21)
+Forward: 22.71s
+
+Saving...
+Total: 23.81s
+
+[Epoch 48]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5271]	16.8+29.1s
+[3200/4440]	[L1: 0.5227]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.844 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.902 (Best: 28.128 @epoch 32)
+[FFHQ x4]	PSNR: 27.884 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.841 (Best: 28.036 @epoch 19)
+[FFHQ x4]	PSNR: 27.958 (Best: 28.117 @epoch 32)
+[FFHQ x4]	PSNR: 27.953 (Best: 28.124 @epoch 32)
+[FFHQ x4]	PSNR: 27.871 (Best: 28.091 @epoch 32)
+[FFHQ x4]	PSNR: 27.948 (Best: 28.101 @epoch 32)
+[FFHQ x4]	PSNR: 27.880 (Best: 28.033 @epoch 32)
+[FFHQ x4]	PSNR: 27.951 (Best: 28.060 @epoch 32)
+[FFHQ x4]	PSNR: 27.838 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 27.881 (Best: 28.018 @epoch 32)
+[FFHQ x4]	PSNR: 27.838 (Best: 27.997 @epoch 19)
+[FFHQ x4]	PSNR: 27.892 (Best: 28.032 @epoch 32)
+[FFHQ x4]	PSNR: 27.803 (Best: 27.960 @epoch 21)
+[FFHQ x4]	PSNR: 27.864 (Best: 28.023 @epoch 32)
+[FFHQ x4]	PSNR: 27.929 (Best: 28.099 @epoch 21)
+[FFHQ x4]	PSNR: 27.892 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.038 (Best: 28.158 @epoch 32)
+[FFHQ x4]	PSNR: 27.806 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 27.826 (Best: 27.998 @epoch 32)
+[FFHQ x4]	PSNR: 27.844 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.055 (Best: 28.161 @epoch 32)
+[FFHQ x4]	PSNR: 27.978 (Best: 28.140 @epoch 32)
+[FFHQ x4]	PSNR: 27.875 (Best: 28.088 @epoch 21)
+Forward: 22.69s
+
+Saving...
+Total: 23.75s
+
+[Epoch 49]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5159]	16.9+29.4s
+[3200/4440]	[L1: 0.5083]	16.8+26.3s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.059 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 28.214 (Best: 28.214 @epoch 49)
+[FFHQ x4]	PSNR: 28.167 (Best: 28.167 @epoch 49)
+[FFHQ x4]	PSNR: 28.071 (Best: 28.071 @epoch 49)
+[FFHQ x4]	PSNR: 28.181 (Best: 28.181 @epoch 49)
+[FFHQ x4]	PSNR: 28.191 (Best: 28.191 @epoch 49)
+[FFHQ x4]	PSNR: 28.152 (Best: 28.152 @epoch 49)
+[FFHQ x4]	PSNR: 28.147 (Best: 28.147 @epoch 49)
+[FFHQ x4]	PSNR: 28.078 (Best: 28.078 @epoch 49)
+[FFHQ x4]	PSNR: 28.116 (Best: 28.116 @epoch 49)
+[FFHQ x4]	PSNR: 28.043 (Best: 28.091 @epoch 21)
+[FFHQ x4]	PSNR: 28.067 (Best: 28.067 @epoch 49)
+[FFHQ x4]	PSNR: 28.054 (Best: 28.054 @epoch 49)
+[FFHQ x4]	PSNR: 28.089 (Best: 28.089 @epoch 49)
+[FFHQ x4]	PSNR: 27.961 (Best: 27.961 @epoch 49)
+[FFHQ x4]	PSNR: 28.096 (Best: 28.096 @epoch 49)
+[FFHQ x4]	PSNR: 28.140 (Best: 28.140 @epoch 49)
+[FFHQ x4]	PSNR: 28.133 (Best: 28.256 @epoch 21)
+[FFHQ x4]	PSNR: 28.211 (Best: 28.211 @epoch 49)
+[FFHQ x4]	PSNR: 28.066 (Best: 28.217 @epoch 21)
+[FFHQ x4]	PSNR: 28.066 (Best: 28.066 @epoch 49)
+[FFHQ x4]	PSNR: 28.104 (Best: 28.148 @epoch 21)
+[FFHQ x4]	PSNR: 28.207 (Best: 28.207 @epoch 49)
+[FFHQ x4]	PSNR: 28.211 (Best: 28.211 @epoch 49)
+[FFHQ x4]	PSNR: 28.109 (Best: 28.109 @epoch 49)
+Forward: 23.18s
+
+Saving...
+Total: 24.49s
+
+[Epoch 50]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4921]	16.9+29.3s
+[3200/4440]	[L1: 0.4903]	16.6+25.9s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.099 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.954 (Best: 28.214 @epoch 49)
+[FFHQ x4]	PSNR: 27.952 (Best: 28.167 @epoch 49)
+[FFHQ x4]	PSNR: 28.070 (Best: 28.071 @epoch 49)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.181 @epoch 49)
+[FFHQ x4]	PSNR: 28.009 (Best: 28.191 @epoch 49)
+[FFHQ x4]	PSNR: 28.030 (Best: 28.152 @epoch 49)
+[FFHQ x4]	PSNR: 28.073 (Best: 28.147 @epoch 49)
+[FFHQ x4]	PSNR: 28.023 (Best: 28.078 @epoch 49)
+[FFHQ x4]	PSNR: 28.016 (Best: 28.116 @epoch 49)
+[FFHQ x4]	PSNR: 28.115 (Best: 28.115 @epoch 50)
+[FFHQ x4]	PSNR: 27.978 (Best: 28.067 @epoch 49)
+[FFHQ x4]	PSNR: 27.982 (Best: 28.054 @epoch 49)
+[FFHQ x4]	PSNR: 27.953 (Best: 28.089 @epoch 49)
+[FFHQ x4]	PSNR: 27.985 (Best: 27.985 @epoch 50)
+[FFHQ x4]	PSNR: 27.972 (Best: 28.096 @epoch 49)
+[FFHQ x4]	PSNR: 28.146 (Best: 28.146 @epoch 50)
+[FFHQ x4]	PSNR: 28.272 (Best: 28.272 @epoch 50)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.211 @epoch 49)
+[FFHQ x4]	PSNR: 28.230 (Best: 28.230 @epoch 50)
+[FFHQ x4]	PSNR: 27.954 (Best: 28.066 @epoch 49)
+[FFHQ x4]	PSNR: 28.161 (Best: 28.161 @epoch 50)
+[FFHQ x4]	PSNR: 28.084 (Best: 28.207 @epoch 49)
+[FFHQ x4]	PSNR: 28.059 (Best: 28.211 @epoch 49)
+[FFHQ x4]	PSNR: 28.077 (Best: 28.109 @epoch 49)
+Forward: 23.12s
+
+Saving...
+Total: 24.25s
+
+[Epoch 51]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4798]	16.8+29.2s
+[3200/4440]	[L1: 0.4781]	16.6+25.9s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.949 (Best: 28.104 @epoch 21)
+[FFHQ x4]	PSNR: 27.759 (Best: 28.214 @epoch 49)
+[FFHQ x4]	PSNR: 27.767 (Best: 28.167 @epoch 49)
+[FFHQ x4]	PSNR: 27.858 (Best: 28.071 @epoch 49)
+[FFHQ x4]	PSNR: 27.821 (Best: 28.181 @epoch 49)
+[FFHQ x4]	PSNR: 27.824 (Best: 28.191 @epoch 49)
+[FFHQ x4]	PSNR: 27.788 (Best: 28.152 @epoch 49)
+[FFHQ x4]	PSNR: 27.807 (Best: 28.147 @epoch 49)
+[FFHQ x4]	PSNR: 27.803 (Best: 28.078 @epoch 49)
+[FFHQ x4]	PSNR: 27.795 (Best: 28.116 @epoch 49)
+[FFHQ x4]	PSNR: 27.917 (Best: 28.115 @epoch 50)
+[FFHQ x4]	PSNR: 27.795 (Best: 28.067 @epoch 49)
+[FFHQ x4]	PSNR: 27.757 (Best: 28.054 @epoch 49)
+[FFHQ x4]	PSNR: 27.778 (Best: 28.089 @epoch 49)
+[FFHQ x4]	PSNR: 27.742 (Best: 27.985 @epoch 50)
+[FFHQ x4]	PSNR: 27.713 (Best: 28.096 @epoch 49)
+[FFHQ x4]	PSNR: 27.814 (Best: 28.146 @epoch 50)
+[FFHQ x4]	PSNR: 28.086 (Best: 28.272 @epoch 50)
+[FFHQ x4]	PSNR: 27.778 (Best: 28.211 @epoch 49)
+[FFHQ x4]	PSNR: 28.052 (Best: 28.230 @epoch 50)
+[FFHQ x4]	PSNR: 27.725 (Best: 28.066 @epoch 49)
+[FFHQ x4]	PSNR: 28.026 (Best: 28.161 @epoch 50)
+[FFHQ x4]	PSNR: 27.785 (Best: 28.207 @epoch 49)
+[FFHQ x4]	PSNR: 27.848 (Best: 28.211 @epoch 49)
+[FFHQ x4]	PSNR: 27.903 (Best: 28.109 @epoch 49)
+Forward: 23.03s
+
+Saving...
+Total: 24.17s
+
+[Epoch 52]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4749]	17.0+29.5s
+[3200/4440]	[L1: 0.4723]	16.4+25.8s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.118 (Best: 28.118 @epoch 52)
+[FFHQ x4]	PSNR: 28.196 (Best: 28.214 @epoch 49)
+[FFHQ x4]	PSNR: 28.114 (Best: 28.167 @epoch 49)
+[FFHQ x4]	PSNR: 28.104 (Best: 28.104 @epoch 52)
+[FFHQ x4]	PSNR: 28.245 (Best: 28.245 @epoch 52)
+[FFHQ x4]	PSNR: 28.192 (Best: 28.192 @epoch 52)
+[FFHQ x4]	PSNR: 28.153 (Best: 28.153 @epoch 52)
+[FFHQ x4]	PSNR: 28.184 (Best: 28.184 @epoch 52)
+[FFHQ x4]	PSNR: 28.116 (Best: 28.116 @epoch 52)
+[FFHQ x4]	PSNR: 28.150 (Best: 28.150 @epoch 52)
+[FFHQ x4]	PSNR: 28.090 (Best: 28.115 @epoch 50)
+[FFHQ x4]	PSNR: 28.098 (Best: 28.098 @epoch 52)
+[FFHQ x4]	PSNR: 28.119 (Best: 28.119 @epoch 52)
+[FFHQ x4]	PSNR: 28.111 (Best: 28.111 @epoch 52)
+[FFHQ x4]	PSNR: 28.029 (Best: 28.029 @epoch 52)
+[FFHQ x4]	PSNR: 28.149 (Best: 28.149 @epoch 52)
+[FFHQ x4]	PSNR: 28.112 (Best: 28.146 @epoch 50)
+[FFHQ x4]	PSNR: 28.110 (Best: 28.272 @epoch 50)
+[FFHQ x4]	PSNR: 28.246 (Best: 28.246 @epoch 52)
+[FFHQ x4]	PSNR: 28.107 (Best: 28.230 @epoch 50)
+[FFHQ x4]	PSNR: 28.103 (Best: 28.103 @epoch 52)
+[FFHQ x4]	PSNR: 28.092 (Best: 28.161 @epoch 50)
+[FFHQ x4]	PSNR: 28.200 (Best: 28.207 @epoch 49)
+[FFHQ x4]	PSNR: 28.210 (Best: 28.211 @epoch 49)
+[FFHQ x4]	PSNR: 28.129 (Best: 28.129 @epoch 52)
+Forward: 23.56s
+
+Saving...
+Total: 24.59s
+
+[Epoch 53]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4624]	17.2+29.8s
+[3200/4440]	[L1: 0.4625]	17.0+26.6s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.287 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 28.519 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 28.497 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 28.311 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 28.407 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 28.434 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 28.475 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.379 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 28.295 (Best: 28.295 @epoch 53)
+[FFHQ x4]	PSNR: 28.297 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 28.250 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 28.265 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 28.293 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 28.306 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 28.117 (Best: 28.117 @epoch 53)
+[FFHQ x4]	PSNR: 28.300 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 28.344 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.464 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.402 (Best: 28.402 @epoch 53)
+[FFHQ x4]	PSNR: 28.395 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 28.327 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.477 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.397 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 28.443 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 28.405 (Best: 28.405 @epoch 53)
+Forward: 11.48s
+
+Saving...
+Total: 12.66s
+
+[Epoch 54]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4575]	15.1+28.9s
+[3200/4440]	[L1: 0.4574]	15.0+25.6s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.967 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.704 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.717 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.811 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.766 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.793 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.749 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.747 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.752 (Best: 28.295 @epoch 53)
+[FFHQ x4]	PSNR: 27.739 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.860 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.765 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.699 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.747 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.703 (Best: 28.117 @epoch 53)
+[FFHQ x4]	PSNR: 27.650 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.726 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.080 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.746 (Best: 28.402 @epoch 53)
+[FFHQ x4]	PSNR: 28.000 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.655 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.039 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.722 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.795 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.859 (Best: 28.405 @epoch 53)
+Forward: 22.92s
+
+Saving...
+Total: 24.03s
+
+[Epoch 55]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4539]	17.7+30.5s
+[3200/4440]	[L1: 0.4519]	16.9+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.886 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.648 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.661 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.790 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.695 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.775 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.696 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.695 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.682 (Best: 28.295 @epoch 53)
+[FFHQ x4]	PSNR: 27.690 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.772 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.711 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.608 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.665 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.648 (Best: 28.117 @epoch 53)
+[FFHQ x4]	PSNR: 27.607 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.690 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 27.998 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.675 (Best: 28.402 @epoch 53)
+[FFHQ x4]	PSNR: 27.914 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.624 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 27.947 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.674 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.703 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.789 (Best: 28.405 @epoch 53)
+Forward: 23.69s
+
+Saving...
+Total: 25.04s
+
+[Epoch 56]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4479]	16.8+29.2s
+[3200/4440]	[L1: 0.4476]	16.7+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.935 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 28.009 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.978 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.930 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 28.044 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 28.037 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.971 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.030 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.951 (Best: 28.295 @epoch 53)
+[FFHQ x4]	PSNR: 28.011 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.919 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.956 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.918 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.967 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.870 (Best: 28.117 @epoch 53)
+[FFHQ x4]	PSNR: 27.947 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.998 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 27.983 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.103 (Best: 28.402 @epoch 53)
+[FFHQ x4]	PSNR: 27.916 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.923 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 27.941 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.108 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 28.064 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.961 (Best: 28.405 @epoch 53)
+Forward: 22.99s
+
+Saving...
+Total: 24.08s
+
+[Epoch 57]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4565]	16.7+29.1s
+[3200/4440]	[L1: 0.4485]	17.0+26.6s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.280 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 28.448 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 28.411 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 28.309 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 28.387 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 28.399 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 28.367 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.354 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 28.300 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 28.296 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 28.227 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 28.244 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 28.253 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 28.286 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 28.142 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 28.255 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 28.264 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.377 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.414 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.333 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 28.270 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.368 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.345 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 28.394 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 28.349 (Best: 28.405 @epoch 53)
+Forward: 14.67s
+
+Saving...
+Total: 15.92s
+
+[Epoch 58]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4388]	17.0+29.3s
+[3200/4440]	[L1: 0.4382]	17.0+26.7s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.048 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.871 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.863 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.970 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.935 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.939 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.941 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.965 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.945 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.909 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 28.032 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.908 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.889 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.880 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.891 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.867 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.995 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.201 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.925 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.144 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.850 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.109 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.945 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.978 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.994 (Best: 28.405 @epoch 53)
+Forward: 23.06s
+
+Saving...
+Total: 24.52s
+
+[Epoch 59]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4358]	16.9+29.2s
+[3200/4440]	[L1: 0.4361]	16.7+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.950 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.759 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.793 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.862 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.821 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.832 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.791 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.808 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.807 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.812 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.922 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.807 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.759 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.783 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.735 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.701 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.827 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.094 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.788 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.053 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.746 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.032 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.770 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.862 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.914 (Best: 28.405 @epoch 53)
+Forward: 23.03s
+
+Saving...
+Total: 24.17s
+
+[Epoch 60]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4331]	16.9+29.4s
+[3200/4440]	[L1: 0.4332]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.079 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 28.171 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 28.139 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 28.089 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 28.185 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 28.182 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 28.122 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.157 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 28.104 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 28.117 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 28.034 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 28.075 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 28.059 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 28.085 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.989 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 28.082 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 28.069 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.128 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.216 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.082 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 28.058 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.129 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.197 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 28.172 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 28.114 (Best: 28.405 @epoch 53)
+Forward: 24.33s
+
+Saving...
+Total: 25.77s
+
+[Epoch 61]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4340]	16.8+29.4s
+[3200/4440]	[L1: 0.4322]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.001 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 28.042 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 28.011 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.989 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 28.061 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 28.062 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 28.000 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.063 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 28.006 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 28.013 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.935 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.981 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.966 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.983 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.920 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.990 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.960 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.034 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.116 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 27.976 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.948 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.040 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.116 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 28.053 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 28.015 (Best: 28.405 @epoch 53)
+Forward: 23.27s
+
+Saving...
+Total: 24.39s
+
+[Epoch 62]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.2729]	16.9+29.8s
+[3200/4440]	[L1: 0.2415]	16.6+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.049 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.922 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.927 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.967 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.950 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.966 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.919 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.973 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.951 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.963 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.933 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.943 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.917 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.937 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.892 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.910 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.921 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.090 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.986 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.032 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.871 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.085 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.998 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.992 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.405 @epoch 53)
+Forward: 23.84s
+
+Saving...
+Total: 24.86s
+
+[Epoch 63]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.2425]	17.0+29.4s
+[3200/4440]	[L1: 0.2370]	16.8+26.4s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.855 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.840 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.801 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.809 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.865 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.882 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.815 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.913 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.845 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.834 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.787 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.826 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.824 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.801 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.792 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.843 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.780 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 27.874 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.941 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 27.813 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.779 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 27.872 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.966 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.853 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.846 (Best: 28.405 @epoch 53)
+Forward: 24.48s
+
+Saving...
+Total: 25.58s
+
+[Epoch 64]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.2276]	17.1+29.5s
+[3200/4440]	[L1: 0.2425]	16.6+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.037 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.944 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.947 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.992 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.966 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 28.013 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.967 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.003 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.972 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.950 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.954 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.956 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.926 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.933 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.917 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.933 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.935 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.080 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.976 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.064 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.900 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.103 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.004 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.977 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 28.011 (Best: 28.405 @epoch 53)
+Forward: 23.00s
+
+Saving...
+Total: 24.05s
+
+[Epoch 65]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.2448]	17.1+29.9s
+[3200/4440]	[L1: 0.2560]	17.2+27.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.925 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.917 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.932 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.927 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.953 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.986 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.915 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.002 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.931 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.957 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.888 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.919 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.879 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.904 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.863 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.890 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.922 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 27.979 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.006 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 27.924 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.853 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 27.962 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.058 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.969 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.948 (Best: 28.405 @epoch 53)
+Forward: 23.77s
+
+Saving...
+Total: 25.19s
+
+[Epoch 66]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3195]	16.8+29.4s
+[3200/4440]	[L1: 0.3062]	16.6+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.873 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.870 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.843 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.831 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.847 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.856 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.841 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.905 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.857 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.837 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.826 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.831 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.834 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.849 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.809 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.855 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.831 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 27.925 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.908 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 27.875 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.791 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 27.916 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.945 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.877 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.882 (Best: 28.405 @epoch 53)
+Forward: 24.03s
+
+Saving...
+Total: 25.34s
+
+[Epoch 67]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3781]	17.0+29.4s
+[3200/4440]	[L1: 0.3569]	16.6+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.210 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 28.151 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 28.131 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 28.154 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 28.161 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 28.161 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 28.172 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.204 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 28.147 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 28.137 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 28.130 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 28.117 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 28.130 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 28.103 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 28.097 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 28.121 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 28.126 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.244 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.174 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.213 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 28.126 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.223 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.197 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 28.165 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 28.191 (Best: 28.405 @epoch 53)
+Forward: 15.59s
+
+Saving...
+Total: 16.14s
+
+[Epoch 68]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.2976]	15.0+28.6s
+[3200/4440]	[L1: 0.3140]	14.8+25.6s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.947 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.805 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.807 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.884 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.867 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.913 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.860 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.921 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.848 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.887 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.880 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.854 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.783 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.825 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.787 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.795 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.908 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.048 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.872 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 27.978 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.778 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 27.976 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.944 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.912 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.912 (Best: 28.405 @epoch 53)
+Forward: 23.88s
+
+Saving...
+Total: 25.05s
+
+[Epoch 69]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4588]	17.2+29.7s
+[3200/4440]	[L1: 0.5658]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.771 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.820 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.797 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.757 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.892 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.867 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.801 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.890 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.808 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.897 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.786 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.820 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.789 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.841 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.738 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.805 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.861 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 27.816 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.991 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 27.718 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.774 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 27.732 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.912 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.794 (Best: 28.405 @epoch 53)
+Forward: 23.61s
+
+Saving...
+Total: 24.58s
+
+[Epoch 70]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5663]	17.0+29.6s
+[3200/4440]	[L1: 0.5548]	16.8+26.5s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.977 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.746 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.727 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.845 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.786 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.825 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.787 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.806 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.777 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.764 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.856 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.778 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.709 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.771 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.741 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.717 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.781 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.096 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.805 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 27.974 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.690 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.024 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.812 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.816 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.867 (Best: 28.405 @epoch 53)
+Forward: 23.35s
+
+Saving...
+Total: 24.37s
+
+[Epoch 71]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.5082]	17.4+29.8s
+[3200/4440]	[L1: 0.5046]	16.7+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.014 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.889 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.873 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.942 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.918 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.924 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.923 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.962 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.922 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.947 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 28.005 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.892 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.857 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.873 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.865 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.890 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.994 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.141 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.931 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.104 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.887 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.050 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.974 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.987 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.991 (Best: 28.405 @epoch 53)
+Forward: 23.74s
+
+Saving...
+Total: 24.77s
+
+[Epoch 72]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4815]	17.1+29.4s
+[3200/4440]	[L1: 0.4763]	16.9+26.4s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.161 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 28.174 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 28.134 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 28.135 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 28.214 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 28.190 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 28.133 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.195 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 28.145 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 28.166 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 28.055 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 28.129 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 28.105 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 28.133 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 28.060 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 28.106 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 28.065 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.160 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.265 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.134 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 28.095 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.174 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.215 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 28.192 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 28.162 (Best: 28.405 @epoch 53)
+Forward: 23.36s
+
+Saving...
+Total: 24.53s
+
+[Epoch 73]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4551]	16.8+29.3s
+[3200/4440]	[L1: 0.4533]	16.3+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.011 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.957 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.907 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.956 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 28.006 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 28.009 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.908 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.016 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.976 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 28.000 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.863 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.981 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.922 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.962 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.930 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.956 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.877 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 27.971 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.099 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 27.908 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.905 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 27.998 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.094 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.989 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.973 (Best: 28.405 @epoch 53)
+Forward: 11.23s
+
+Saving...
+Total: 12.39s
+
+[Epoch 74]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4406]	16.9+30.0s
+[3200/4440]	[L1: 0.4383]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.966 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.762 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.759 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.858 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.818 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.844 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.806 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.814 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.807 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.801 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.895 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.794 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.751 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.783 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.746 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.725 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.810 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.097 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.803 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.018 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.725 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.045 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.799 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.845 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.895 (Best: 28.405 @epoch 53)
+Forward: 22.90s
+
+Saving...
+Total: 24.01s
+
+[Epoch 75]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4303]	17.1+29.9s
+[3200/4440]	[L1: 0.4276]	16.6+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.932 (Best: 28.287 @epoch 53)
+[FFHQ x4]	PSNR: 27.715 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.723 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.822 (Best: 28.311 @epoch 53)
+[FFHQ x4]	PSNR: 27.771 (Best: 28.407 @epoch 53)
+[FFHQ x4]	PSNR: 27.809 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.755 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.764 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.755 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.752 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.852 (Best: 28.250 @epoch 53)
+[FFHQ x4]	PSNR: 27.763 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.699 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.735 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.705 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.674 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.754 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.056 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.742 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 27.989 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.679 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.011 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.743 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.792 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.853 (Best: 28.405 @epoch 53)
+Forward: 24.03s
+
+Saving...
+Total: 25.17s
+
+[Epoch 76]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4219]	16.9+29.4s
+[3200/4440]	[L1: 0.4199]	16.6+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.299 (Best: 28.299 @epoch 76)
+[FFHQ x4]	PSNR: 28.487 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 28.462 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 28.312 (Best: 28.312 @epoch 76)
+[FFHQ x4]	PSNR: 28.411 (Best: 28.411 @epoch 76)
+[FFHQ x4]	PSNR: 28.413 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 28.431 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.371 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 28.286 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 28.292 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 28.255 (Best: 28.255 @epoch 76)
+[FFHQ x4]	PSNR: 28.255 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 28.279 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 28.303 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 28.126 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 28.286 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 28.321 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.426 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.410 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.374 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 28.311 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.423 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.384 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 28.438 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 28.375 (Best: 28.405 @epoch 53)
+Forward: 23.31s
+
+Saving...
+Total: 24.83s
+
+[Epoch 77]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4148]	17.3+30.1s
+[3200/4440]	[L1: 0.4144]	17.0+26.3s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.256 (Best: 28.299 @epoch 76)
+[FFHQ x4]	PSNR: 28.281 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 28.244 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 28.221 (Best: 28.312 @epoch 76)
+[FFHQ x4]	PSNR: 28.312 (Best: 28.411 @epoch 76)
+[FFHQ x4]	PSNR: 28.296 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 28.235 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 28.263 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 28.247 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 28.258 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 28.123 (Best: 28.255 @epoch 76)
+[FFHQ x4]	PSNR: 28.214 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 28.195 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 28.210 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 28.126 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 28.213 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 28.134 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.252 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 28.366 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.205 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 28.192 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.274 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 28.284 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 28.291 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 28.261 (Best: 28.405 @epoch 53)
+Forward: 23.30s
+
+Saving...
+Total: 24.69s
+
+[Epoch 78]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4099]	17.1+29.6s
+[3200/4440]	[L1: 0.4084]	16.5+25.7s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.968 (Best: 28.299 @epoch 76)
+[FFHQ x4]	PSNR: 27.775 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.770 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.872 (Best: 28.312 @epoch 76)
+[FFHQ x4]	PSNR: 27.844 (Best: 28.411 @epoch 76)
+[FFHQ x4]	PSNR: 27.846 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.817 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.828 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.831 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.798 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.936 (Best: 28.255 @epoch 76)
+[FFHQ x4]	PSNR: 27.803 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.776 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.789 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.760 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.741 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.827 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.111 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.800 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.072 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.740 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.049 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.799 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.877 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.911 (Best: 28.405 @epoch 53)
+Forward: 23.21s
+
+Saving...
+Total: 24.34s
+
+[Epoch 79]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4039]	17.0+29.6s
+[3200/4440]	[L1: 0.4024]	16.5+25.8s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.948 (Best: 28.299 @epoch 76)
+[FFHQ x4]	PSNR: 27.708 (Best: 28.519 @epoch 53)
+[FFHQ x4]	PSNR: 27.714 (Best: 28.497 @epoch 53)
+[FFHQ x4]	PSNR: 27.828 (Best: 28.312 @epoch 76)
+[FFHQ x4]	PSNR: 27.765 (Best: 28.411 @epoch 76)
+[FFHQ x4]	PSNR: 27.793 (Best: 28.434 @epoch 53)
+[FFHQ x4]	PSNR: 27.755 (Best: 28.475 @epoch 53)
+[FFHQ x4]	PSNR: 27.756 (Best: 28.379 @epoch 53)
+[FFHQ x4]	PSNR: 27.746 (Best: 28.300 @epoch 57)
+[FFHQ x4]	PSNR: 27.740 (Best: 28.297 @epoch 53)
+[FFHQ x4]	PSNR: 27.861 (Best: 28.255 @epoch 76)
+[FFHQ x4]	PSNR: 27.759 (Best: 28.265 @epoch 53)
+[FFHQ x4]	PSNR: 27.698 (Best: 28.293 @epoch 53)
+[FFHQ x4]	PSNR: 27.736 (Best: 28.306 @epoch 53)
+[FFHQ x4]	PSNR: 27.707 (Best: 28.142 @epoch 57)
+[FFHQ x4]	PSNR: 27.653 (Best: 28.300 @epoch 53)
+[FFHQ x4]	PSNR: 27.735 (Best: 28.344 @epoch 53)
+[FFHQ x4]	PSNR: 28.068 (Best: 28.464 @epoch 53)
+[FFHQ x4]	PSNR: 27.734 (Best: 28.414 @epoch 57)
+[FFHQ x4]	PSNR: 28.008 (Best: 28.395 @epoch 53)
+[FFHQ x4]	PSNR: 27.670 (Best: 28.327 @epoch 53)
+[FFHQ x4]	PSNR: 28.020 (Best: 28.477 @epoch 53)
+[FFHQ x4]	PSNR: 27.725 (Best: 28.397 @epoch 53)
+[FFHQ x4]	PSNR: 27.787 (Best: 28.443 @epoch 53)
+[FFHQ x4]	PSNR: 27.859 (Best: 28.405 @epoch 53)
+Forward: 23.22s
+
+Saving...
+Total: 24.68s
+
+[Epoch 80]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3994]	16.8+29.1s
+[3200/4440]	[L1: 0.3986]	16.5+25.8s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.456 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.684 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 28.650 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 28.518 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 28.610 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 28.584 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 28.607 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.564 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 28.494 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 28.456 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.437 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 28.380 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 28.451 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 28.443 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 28.272 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 28.414 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 28.401 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.587 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 28.598 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 28.607 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.462 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 28.595 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 28.480 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 28.575 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 28.551 (Best: 28.551 @epoch 80)
+Forward: 22.97s
+
+Saving...
+Total: 24.41s
+
+[Epoch 81]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3959]	16.6+29.0s
+[3200/4440]	[L1: 0.3947]	16.5+25.5s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.279 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.387 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 28.352 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 28.307 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 28.379 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 28.373 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 28.318 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.338 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 28.303 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 28.335 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.192 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 28.245 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 28.245 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 28.282 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 28.154 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 28.265 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 28.222 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.307 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 28.434 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 28.254 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.259 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 28.329 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 28.331 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 28.363 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 28.330 (Best: 28.551 @epoch 80)
+Forward: 24.68s
+
+Saving...
+Total: 25.94s
+
+[Epoch 82]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3921]	16.7+29.0s
+[3200/4440]	[L1: 0.3913]	16.5+25.8s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.969 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.727 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.717 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.834 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.780 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.801 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.763 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.778 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.763 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.730 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.873 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.769 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.711 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.755 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.713 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.682 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.755 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.099 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.753 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.670 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 28.029 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.753 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.817 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.864 (Best: 28.551 @epoch 80)
+Forward: 22.79s
+
+Saving...
+Total: 23.95s
+
+[Epoch 83]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3987]	16.7+29.1s
+[3200/4440]	[L1: 0.3929]	16.6+26.0s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.892 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.667 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.682 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.775 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.706 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.790 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.702 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.720 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.696 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.700 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.777 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.726 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.630 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.682 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.644 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.629 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.708 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.010 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.690 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 27.926 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.632 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 27.959 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.703 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.734 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.798 (Best: 28.551 @epoch 80)
+Forward: 22.69s
+
+Saving...
+Total: 23.77s
+
+[Epoch 84]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3858]	16.9+29.5s
+[3200/4440]	[L1: 0.3854]	16.6+25.9s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.934 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.920 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.858 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.898 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.945 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.942 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.860 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.967 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.925 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.929 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.822 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.898 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.881 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.898 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.864 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.912 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.830 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 27.908 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 28.049 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 27.865 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.835 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 27.934 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 28.053 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.932 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.913 (Best: 28.551 @epoch 80)
+Forward: 22.86s
+
+Saving...
+Total: 23.91s
+
+[Epoch 85]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3827]	16.8+29.1s
+[3200/4440]	[L1: 0.3825]	16.8+26.1s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.862 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.810 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.781 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.838 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.887 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.888 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.761 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.896 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.854 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.874 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.742 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.862 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.785 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.837 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.814 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.828 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.767 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 27.825 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.976 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 27.746 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.786 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 27.863 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 28.003 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.862 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.825 (Best: 28.551 @epoch 80)
+Forward: 22.74s
+
+Saving...
+Total: 23.73s
+
+[Epoch 86]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3839]	15.3+29.0s
+[3200/4440]	[L1: 0.3824]	15.9+25.6s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.970 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.715 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.715 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.815 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.776 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.792 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.754 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.757 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.759 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.722 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.872 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.769 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.709 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.751 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.703 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.663 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.737 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.093 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.734 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 28.020 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.664 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 28.034 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.730 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.821 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.864 (Best: 28.551 @epoch 80)
+Forward: 23.13s
+
+Saving...
+Total: 24.15s
+
+[Epoch 87]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3802]	16.9+29.3s
+[3200/4440]	[L1: 0.3798]	16.5+25.7s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.902 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.668 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.690 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.775 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.716 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.819 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.718 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.741 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.712 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.720 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.775 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.747 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.648 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.681 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.650 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.642 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.724 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.714 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 27.927 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.659 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 27.987 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.732 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.726 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.793 (Best: 28.551 @epoch 80)
+Forward: 22.88s
+
+Saving...
+Total: 23.85s
+
+[Epoch 88]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3782]	16.8+29.1s
+[3200/4440]	[L1: 0.3788]	16.5+25.7s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.208 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.203 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 28.156 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 28.163 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 28.233 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 28.223 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 28.143 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.198 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 28.184 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 28.205 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.038 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 28.148 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 28.133 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 28.147 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 28.080 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 28.156 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 28.065 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.182 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 28.315 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 28.143 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.095 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 28.202 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 28.255 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 28.214 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 28.192 (Best: 28.551 @epoch 80)
+Forward: 21.60s
+
+Saving...
+Total: 22.75s
+
+[Epoch 89]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3762]	16.8+29.0s
+[3200/4440]	[L1: 0.3767]	16.6+25.9s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.874 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.793 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.766 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.838 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.875 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.883 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.759 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.882 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.834 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.869 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.734 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.848 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.786 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.837 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.796 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.832 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.756 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 27.816 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.967 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 27.741 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.778 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 27.859 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 28.001 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.868 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.823 (Best: 28.551 @epoch 80)
+Forward: 23.91s
+
+Saving...
+Total: 25.01s
+
+[Epoch 90]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3742]	17.4+30.1s
+[3200/4440]	[L1: 0.3412]	16.7+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.111 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.071 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 28.056 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 28.074 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 28.036 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 28.076 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 28.075 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.082 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 28.043 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 28.021 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.032 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 28.013 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 28.014 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 28.018 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 28.024 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 28.027 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 28.061 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.196 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 28.044 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 28.154 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.988 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 28.178 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 28.100 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 28.040 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 28.078 (Best: 28.551 @epoch 80)
+Forward: 23.76s
+
+Saving...
+Total: 24.96s
+
+[Epoch 91]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.1785]	16.9+29.3s
+[3200/4440]	[L1: 0.1793]	16.8+26.4s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.916 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.903 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.899 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.882 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.877 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.905 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.867 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.942 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.872 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.889 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.848 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.870 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.852 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.871 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.832 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.864 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.866 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 27.974 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.942 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 27.899 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.833 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 27.956 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.997 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.914 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.929 (Best: 28.551 @epoch 80)
+Forward: 23.18s
+
+Saving...
+Total: 24.17s
+
+[Epoch 92]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.2686]	16.8+29.2s
+[3200/4440]	[L1: 0.2379]	16.5+25.9s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.879 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.743 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.728 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.816 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.746 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.813 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.734 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.792 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.727 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.737 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.783 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.742 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.663 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.716 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.683 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.683 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.766 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 27.972 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.739 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 27.915 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.673 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 27.937 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.797 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.785 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.821 (Best: 28.551 @epoch 80)
+Forward: 23.08s
+
+Saving...
+Total: 24.44s
+
+[Epoch 93]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.2090]	16.8+29.2s
+[3200/4440]	[L1: 0.2115]	16.8+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.873 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.785 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.770 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.816 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.770 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.842 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.789 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.815 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.777 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.777 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.796 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.777 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.718 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.761 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.741 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.748 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.803 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 27.983 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.788 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 27.894 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.712 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 27.935 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.841 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.796 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.834 (Best: 28.551 @epoch 80)
+Forward: 23.25s
+
+Saving...
+Total: 24.09s
+
+[Epoch 94]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4468]	16.7+29.0s
+[3200/4440]	[L1: 0.4589]	16.5+25.8s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.184 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.279 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 28.211 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 28.189 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 28.339 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 28.279 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 28.239 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.254 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 28.213 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 28.224 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.163 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 28.167 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 28.201 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 28.188 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 28.102 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 28.235 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 28.177 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.193 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 28.310 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 28.216 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.186 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 28.172 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 28.270 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 28.285 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 28.223 (Best: 28.551 @epoch 80)
+Forward: 23.47s
+
+Saving...
+Total: 24.63s
+
+[Epoch 95]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4494]	16.7+29.1s
+[3200/4440]	[L1: 0.4440]	16.5+25.9s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.971 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.717 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.719 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.816 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.778 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.797 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.754 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.759 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.764 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.723 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.874 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.770 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.707 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.752 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.703 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.667 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.747 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.091 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.736 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 28.021 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.673 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 28.035 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.729 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.825 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.868 (Best: 28.551 @epoch 80)
+Forward: 23.47s
+
+Saving...
+Total: 24.56s
+
+[Epoch 96]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4217]	16.7+29.0s
+[3200/4440]	[L1: 0.4190]	16.5+25.8s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.958 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.809 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.804 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.891 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.864 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.856 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.843 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.854 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.841 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.852 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.951 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.816 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.789 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.795 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.765 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.792 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.886 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.092 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.819 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 28.079 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.801 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 28.021 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.831 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.924 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.931 (Best: 28.551 @epoch 80)
+Forward: 11.33s
+
+Saving...
+Total: 11.85s
+
+[Epoch 97]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.4053]	16.2+29.0s
+[3200/4440]	[L1: 0.4029]	16.5+25.7s
+
+Evaluation:
+[FFHQ x4]	PSNR: 28.375 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.550 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 28.509 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 28.420 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 28.519 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 28.510 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 28.476 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.463 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 28.420 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 28.430 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 28.321 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 28.339 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 28.355 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 28.379 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 28.216 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 28.357 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 28.324 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.452 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 28.539 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 28.411 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 28.401 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 28.461 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 28.411 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 28.496 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 28.458 (Best: 28.551 @epoch 80)
+Forward: 22.81s
+
+Saving...
+Total: 24.09s
+
+[Epoch 98]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3926]	16.6+28.8s
+[3200/4440]	[L1: 0.3913]	16.9+26.4s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.849 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.796 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.749 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.797 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.842 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.848 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.750 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.880 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.830 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.827 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.720 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.827 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.786 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.811 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.782 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.818 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.729 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 27.825 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.958 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 27.765 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.757 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 27.873 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.984 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.842 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.813 (Best: 28.551 @epoch 80)
+Forward: 23.50s
+
+Saving...
+Total: 24.87s
+
+[Epoch 99]	Learning rate: 1.00e-4
+[1600/4440]	[L1: 0.3853]	16.6+29.1s
+[3200/4440]	[L1: 0.3841]	16.7+26.2s
+
+Evaluation:
+[FFHQ x4]	PSNR: 27.934 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.676 (Best: 28.684 @epoch 80)
+[FFHQ x4]	PSNR: 27.663 (Best: 28.650 @epoch 80)
+[FFHQ x4]	PSNR: 27.800 (Best: 28.518 @epoch 80)
+[FFHQ x4]	PSNR: 27.728 (Best: 28.610 @epoch 80)
+[FFHQ x4]	PSNR: 27.775 (Best: 28.584 @epoch 80)
+[FFHQ x4]	PSNR: 27.731 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.725 (Best: 28.564 @epoch 80)
+[FFHQ x4]	PSNR: 27.720 (Best: 28.494 @epoch 80)
+[FFHQ x4]	PSNR: 27.683 (Best: 28.456 @epoch 80)
+[FFHQ x4]	PSNR: 27.822 (Best: 28.437 @epoch 80)
+[FFHQ x4]	PSNR: 27.717 (Best: 28.380 @epoch 80)
+[FFHQ x4]	PSNR: 27.656 (Best: 28.451 @epoch 80)
+[FFHQ x4]	PSNR: 27.698 (Best: 28.443 @epoch 80)
+[FFHQ x4]	PSNR: 27.674 (Best: 28.272 @epoch 80)
+[FFHQ x4]	PSNR: 27.645 (Best: 28.414 @epoch 80)
+[FFHQ x4]	PSNR: 27.702 (Best: 28.401 @epoch 80)
+[FFHQ x4]	PSNR: 28.038 (Best: 28.587 @epoch 80)
+[FFHQ x4]	PSNR: 27.704 (Best: 28.598 @epoch 80)
+[FFHQ x4]	PSNR: 27.967 (Best: 28.607 @epoch 80)
+[FFHQ x4]	PSNR: 27.628 (Best: 28.462 @epoch 80)
+[FFHQ x4]	PSNR: 27.993 (Best: 28.595 @epoch 80)
+[FFHQ x4]	PSNR: 27.709 (Best: 28.480 @epoch 80)
+[FFHQ x4]	PSNR: 27.746 (Best: 28.575 @epoch 80)
+[FFHQ x4]	PSNR: 27.808 (Best: 28.551 @epoch 80)
+Forward: 22.83s
+
+Saving...
+Total: 23.88s
+
